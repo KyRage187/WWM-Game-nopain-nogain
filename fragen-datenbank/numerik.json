@@ -1,0 +1,392 @@
+[
+  {
+    "id": 31,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt die Kondition eines Problems?",
+    "antworten": [
+      "Fehlerverstärkung durch Eingabefehler",
+      "Speicherbedarf",
+      "Anzahl der Iterationen",
+      "Programmlaufzeit"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 32,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Fehlerquelle ist algorithmusunabhängig?",
+    "antworten": [
+      "Linkerfehler",
+      "Syntaxfehler",
+      "Eingabefehler",
+      "Compilerfehler"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 33,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Was untersucht die Stabilität?",
+    "antworten": [
+      "Grafikausgabe",
+      "Verhalten des Algorithmus bei Fehlern",
+      "CPU-Auslastung",
+      "Speichergröße"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 34,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Was ist eine Gleitpunktzahl?",
+    "antworten": [
+      "Ganzzahl",
+      "Komplexe Zahl",
+      "Binärer String",
+      "Darstellung mit Mantisse und Exponent"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 35,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Wann ist ein Problem gut konditioniert?",
+    "antworten": [
+      "Wenn es schnell läuft",
+      "Kleine Eingabefehler erzeugen kleine Ausgabefehler",
+      "Wenn Speicher frei ist",
+      "Wenn Matrix groß ist"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 36,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Größe gehört zur Gleitpunktdarstellung?",
+    "antworten": [
+      "Gradient",
+      "Determinante",
+      "Mantisse",
+      "Eigenwert"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 37,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Was bedeutet κ(A)?",
+    "antworten": [
+      "Kondition einer Matrix",
+      "Spur der Matrix",
+      "Norm der Lösung",
+      "Rang einer Matrix"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 38,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Norm wird oft für die spektrale Kondition verwendet?",
+    "antworten": [
+      "1-Norm",
+      "2-Norm",
+      "∞-Norm",
+      "Frobeniusnorm"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 39,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Was passiert bei Auslöschung führender Ziffern?",
+    "antworten": [
+      "Speicher wächst",
+      "Matrix wird symmetrisch",
+      "Genauigkeit geht verloren",
+      "Iteration endet"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 40,
+    "kategorie": "Numerik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Methode nutzt Taylorentwicklung zur Abschätzung?",
+    "antworten": [
+      "QR-Zerlegung",
+      "Konditionsanalyse",
+      "Pivotisierung",
+      "FFT"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 41,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (11)",
+    "antworten": [
+      "Sie vermeiden jede Rundung",
+      "Sie arbeiten nur symbolisch",
+      "Sie benötigen keine Daten",
+      "Sie liefern Näherungslösungen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 42,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (12)",
+    "antworten": [
+      "Sie vermeiden jede Rundung",
+      "Sie arbeiten nur symbolisch",
+      "Sie liefern Näherungslösungen",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 43,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (13)",
+    "antworten": [
+      "Sie vermeiden jede Rundung",
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 44,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (14)",
+    "antworten": [
+      "Sie benötigen keine Daten",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung",
+      "Sie liefern Näherungslösungen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 45,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (15)",
+    "antworten": [
+      "Sie vermeiden jede Rundung",
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 46,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (16)",
+    "antworten": [
+      "Sie benötigen keine Daten",
+      "Sie vermeiden jede Rundung",
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 47,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (17)",
+    "antworten": [
+      "Sie vermeiden jede Rundung",
+      "Sie arbeiten nur symbolisch",
+      "Sie benötigen keine Daten",
+      "Sie liefern Näherungslösungen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 48,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (18)",
+    "antworten": [
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 49,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (19)",
+    "antworten": [
+      "Sie vermeiden jede Rundung",
+      "Sie arbeiten nur symbolisch",
+      "Sie benötigen keine Daten",
+      "Sie liefern Näherungslösungen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 50,
+    "kategorie": "Numerik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (20)",
+    "antworten": [
+      "Sie arbeiten nur symbolisch",
+      "Sie liefern Näherungslösungen",
+      "Sie vermeiden jede Rundung",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 51,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (21)",
+    "antworten": [
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung",
+      "Sie liefern Näherungslösungen",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 52,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (22)",
+    "antworten": [
+      "Sie benötigen keine Daten",
+      "Sie vermeiden jede Rundung",
+      "Sie arbeiten nur symbolisch",
+      "Sie liefern Näherungslösungen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 53,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (23)",
+    "antworten": [
+      "Sie benötigen keine Daten",
+      "Sie arbeiten nur symbolisch",
+      "Sie liefern Näherungslösungen",
+      "Sie vermeiden jede Rundung"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 54,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (24)",
+    "antworten": [
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 55,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (25)",
+    "antworten": [
+      "Sie benötigen keine Daten",
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 56,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (26)",
+    "antworten": [
+      "Sie liefern Näherungslösungen",
+      "Sie benötigen keine Daten",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 57,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (27)",
+    "antworten": [
+      "Sie vermeiden jede Rundung",
+      "Sie benötigen keine Daten",
+      "Sie arbeiten nur symbolisch",
+      "Sie liefern Näherungslösungen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 58,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (28)",
+    "antworten": [
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 59,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (29)",
+    "antworten": [
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 60,
+    "kategorie": "Numerik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (30)",
+    "antworten": [
+      "Sie liefern Näherungslösungen",
+      "Sie arbeiten nur symbolisch",
+      "Sie vermeiden jede Rundung",
+      "Sie benötigen keine Daten"
+    ],
+    "korrekt": 0
+  }
+]

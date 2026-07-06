@@ -1,0 +1,392 @@
+[
+  {
+    "id": 61,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt das Standardskalarprodukt?",
+    "antworten": [
+      "Die relative Lage zweier Vektoren",
+      "Die Determinante einer Matrix",
+      "Die Anzahl der Gleichungen",
+      "Den Rang einer Matrix"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 62,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "leicht",
+    "frage": "Wann sind zwei Vektoren orthogonal?",
+    "antworten": [
+      "Wenn sie parallel sind",
+      "Wenn ihre Summe Null ist",
+      "Wenn ihr Skalarprodukt Null ist",
+      "Wenn sie gleich lang sind"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 63,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "leicht",
+    "frage": "Wie berechnet sich die Norm eines Vektors im Standardskalarprodukt?",
+    "antworten": [
+      "Als Determinante",
+      "Als Spur der Matrix",
+      "Als Maximum der Einträge",
+      "Als Wurzel aus dem Skalarprodukt mit sich selbst"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 64,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Matrix erfüllt Aᵀ=A?",
+    "antworten": [
+      "Diagonalmatrix",
+      "Symmetrische Matrix",
+      "Einheitsmatrix",
+      "Dreiecksmatrix"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 65,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Ungleichung beschränkt |⟨x,y⟩|?",
+    "antworten": [
+      "Cauchy-Schwarz-Ungleichung",
+      "Bernoulli-Ungleichung",
+      "Jensen-Ungleichung",
+      "Mittelwertsatz"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 66,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Eigenschaft besitzt eine Norm?",
+    "antworten": [
+      "Orthogonalität",
+      "Antisymmetrie",
+      "Dreiecksungleichung",
+      "Idempotenz"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 67,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Wie wird der Abstand in einem normierten Raum definiert?",
+    "antworten": [
+      "Als Spur",
+      "Als Produkt der Normen",
+      "Als Determinante",
+      "Als Norm der Differenz"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 68,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Norm erzeugt die Manhattan-Metrik?",
+    "antworten": [
+      "Frobeniusnorm",
+      "2-Norm",
+      "1-Norm",
+      "∞-Norm"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 69,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Wann ist eine Bilinearform positiv definit?",
+    "antworten": [
+      "Wenn alle Einträge positiv sind",
+      "Wenn A diagonal ist",
+      "Wenn A invertierbar ist",
+      "Wenn s(x,x)>0 für alle x≠0"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 70,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage gilt für (AB)ᵀ?",
+    "antworten": [
+      "BA",
+      "AᵀBᵀ",
+      "BᵀAᵀ",
+      "AB"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 71,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (11)",
+    "antworten": [
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie verzichtet auf Matrizen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 72,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (12)",
+    "antworten": [
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie verzichtet auf Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie untersucht Vektoren und Matrizen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 73,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (13)",
+    "antworten": [
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie verzichtet auf Matrizen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 74,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (14)",
+    "antworten": [
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie verzichtet auf Matrizen",
+      "Sie untersucht Vektoren und Matrizen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 75,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (15)",
+    "antworten": [
+      "Sie verzichtet auf Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 76,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (16)",
+    "antworten": [
+      "Sie verzichtet auf Matrizen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie behandelt nur Differentialgleichungen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 77,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (17)",
+    "antworten": [
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie verzichtet auf Matrizen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie behandelt nur Differentialgleichungen"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 78,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (18)",
+    "antworten": [
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie verzichtet auf Matrizen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 79,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (19)",
+    "antworten": [
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie verzichtet auf Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie untersucht Vektoren und Matrizen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 80,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (20)",
+    "antworten": [
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie verzichtet auf Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 81,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (21)",
+    "antworten": [
+      "Sie verzichtet auf Matrizen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 82,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (22)",
+    "antworten": [
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie verzichtet auf Matrizen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 83,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (23)",
+    "antworten": [
+      "Sie verzichtet auf Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie untersucht Vektoren und Matrizen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 84,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (24)",
+    "antworten": [
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie verzichtet auf Matrizen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 85,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (25)",
+    "antworten": [
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie verzichtet auf Matrizen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 86,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (26)",
+    "antworten": [
+      "Sie verzichtet auf Matrizen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 87,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (27)",
+    "antworten": [
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie verzichtet auf Matrizen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 88,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (28)",
+    "antworten": [
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie verzichtet auf Matrizen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 89,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (29)",
+    "antworten": [
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie verzichtet auf Matrizen",
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie nutzt keine linearen Abbildungen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 90,
+    "kategorie": "Lineare Algebra",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (30)",
+    "antworten": [
+      "Sie behandelt nur Differentialgleichungen",
+      "Sie untersucht Vektoren und Matrizen",
+      "Sie nutzt keine linearen Abbildungen",
+      "Sie verzichtet auf Matrizen"
+    ],
+    "korrekt": 1
+  }
+]

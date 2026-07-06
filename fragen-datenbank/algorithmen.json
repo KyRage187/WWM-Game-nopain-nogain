@@ -1,0 +1,392 @@
+[
+  {
+    "id": 181,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür steht die O-Notation?",
+    "antworten": [
+      "Für die asymptotische Laufzeit bzw. den Ressourcenbedarf eines Algorithmus",
+      "Für die Anzahl der Programmzeilen",
+      "Für den Speicher einer CPU",
+      "Für die Anzahl der Variablen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 182,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welcher Aufwand entsteht beim linearen Durchlaufen eines Arrays mit n Elementen?",
+    "antworten": [
+      "O(log n)",
+      "O(n)",
+      "O(n²)",
+      "O(1)"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 183,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welcher Algorithmus findet ein Majority Element in linearer Zeit und konstantem Speicher?",
+    "antworten": [
+      "Binary Search",
+      "Merge Sort",
+      "Boyer-Moore Voting",
+      "Bubble Sort"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 184,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Datenstruktur besitzt zusammenhängenden Speicher?",
+    "antworten": [
+      "Verkettete Liste",
+      "Graph",
+      "Binärer Suchbaum",
+      "Array"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 185,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Eigenschaft besitzt ein dynamisches Array?",
+    "antworten": [
+      "Es kann seine Kapazität bei Bedarf vergrößern",
+      "Es besitzt unendlich viele Elemente",
+      "Es benötigt keine Indizes",
+      "Es speichert nur ganze Zahlen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 186,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welcher Vorteil zeichnet verkettete Listen gegenüber Arrays aus?",
+    "antworten": [
+      "Schnellerer Direktzugriff",
+      "Einfügen und Löschen ohne Verschieben vieler Elemente",
+      "Geringerer Speicherbedarf",
+      "Automatische Sortierung"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 187,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Wie groß ist der zusätzliche Speicherbedarf der Zwei-Zeiger-Methode zur Bestimmung des Mittelpunkts einer Linked List?",
+    "antworten": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 188,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Sortiermethode arbeitet nach dem Prinzip 'Teile und Herrsche'?",
+    "antworten": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Bucket Sort",
+      "Merge Sort"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 189,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welches Sortierverfahren vertauscht benachbarte Elemente wiederholt?",
+    "antworten": [
+      "Bubble Sort",
+      "Merge Sort",
+      "Heap Sort",
+      "Quickselect"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 190,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Datenstruktur wird typischerweise für Hashsets verwendet?",
+    "antworten": [
+      "Binärer Baum",
+      "Hash-Tabelle",
+      "Queue",
+      "Stack"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 191,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Eigenschaft gilt für einen Binary Search Tree?",
+    "antworten": [
+      "Alle Kinder besitzen denselben Wert",
+      "Jeder Knoten besitzt höchstens drei Kinder",
+      "Links stehen kleinere und rechts größere Schlüssel",
+      "Alle Blätter liegen auf derselben Ebene"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 192,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Traversierung besucht zuerst die Wurzel, dann den linken und anschließend den rechten Teilbaum?",
+    "antworten": [
+      "Inorder",
+      "Postorder",
+      "Levelorder",
+      "Preorder"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 193,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Datenstruktur verwendet die Breitensuche (BFS)?",
+    "antworten": [
+      "Queue",
+      "Stack",
+      "Heap",
+      "Hashset"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 194,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Datenstruktur wird bei einer rekursiven Tiefensuche implizit verwendet?",
+    "antworten": [
+      "Queue",
+      "Call Stack",
+      "Hashmap",
+      "Priority Queue"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 195,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche asymptotische Laufzeit besitzt die Breitensuche auf einem Graphen mit |V| Knoten und |E| Kanten?",
+    "antworten": [
+      "O(|V|²)",
+      "O(|E|²)",
+      "O(|V| + |E|)",
+      "O(log |V|)"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 196,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welches Ziel verfolgt die Breitensuche (BFS)?",
+    "antworten": [
+      "Alle Knoten in zufälliger Reihenfolge besuchen",
+      "Möglichst wenige Knoten speichern",
+      "Den Graphen eben zeichnen",
+      "Knoten schichtweise vom Startknoten aus besuchen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 197,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Warum werden bei der Breitensuche besuchte Knoten markiert?",
+    "antworten": [
+      "Um Mehrfachbesuche und Endlosschleifen zu vermeiden",
+      "Damit der Graph sortiert wird",
+      "Um den Speicherbedarf zu erhöhen",
+      "Damit die Queue leer bleibt"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 198,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Datenstruktur arbeitet nach dem FIFO-Prinzip?",
+    "antworten": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Binärer Suchbaum"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 199,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Traversierung eines Binary Search Trees liefert die Schlüssel in sortierter Reihenfolge?",
+    "antworten": [
+      "Preorder",
+      "Postorder",
+      "Inorder",
+      "Levelorder"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 200,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage über einen Binary Search Tree ist korrekt?",
+    "antworten": [
+      "Jeder Knoten besitzt genau zwei Kinder",
+      "Alle Blätter haben denselben Wert",
+      "Alle Werte sind eindeutig",
+      "Im linken Teilbaum stehen nur kleinere Schlüssel als im Knoten"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 201,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche durchschnittliche Laufzeit besitzt die Suche in einem balancierten Binary Search Tree?",
+    "antworten": [
+      "O(log n)",
+      "O(n)",
+      "O(n²)",
+      "O(1)"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 202,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Was ist der Nachteil eines stark unausgeglichenen Binary Search Trees?",
+    "antworten": [
+      "Der Speicherbedarf wird konstant",
+      "Die Suche kann auf O(n) anwachsen",
+      "Einfügen ist nicht mehr möglich",
+      "Er enthält keine Blätter"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 203,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Eigenschaft besitzt Merge Sort?",
+    "antworten": [
+      "Arbeitet ausschließlich in-place",
+      "Besitzt quadratische Laufzeit",
+      "Hat eine Laufzeit von O(n log n)",
+      "Benötigt keine Rekursion"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 204,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welcher Schritt erfolgt beim Merge Sort nach dem rekursiven Zerlegen?",
+    "antworten": [
+      "Hashen der Elemente",
+      "Löschen doppelter Werte",
+      "Pivot wählen",
+      "Zusammenführen der sortierten Teilfolgen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 205,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Wann eignet sich Bucket Sort besonders gut?",
+    "antworten": [
+      "Wenn die Werte in einem bekannten Bereich liegen",
+      "Für beliebige Vergleichsoperationen",
+      "Für Graphtraversierungen",
+      "Für rekursive Baumalgorithmen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 206,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Eigenschaft besitzt Insertion Sort?",
+    "antworten": [
+      "Er arbeitet nur auf Linked Lists",
+      "Er fügt Elemente schrittweise in einen sortierten Bereich ein",
+      "Er benötigt immer O(n log n)",
+      "Er nutzt Hashing"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 207,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Laufzeit besitzt Bubble Sort im schlechtesten Fall?",
+    "antworten": [
+      "O(n)",
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 208,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Datenstruktur wird typischerweise zur Darstellung eines Graphen verwendet?",
+    "antworten": [
+      "Nur Arrays",
+      "Nur Hashsets",
+      "Nur Queues",
+      "Adjazenzliste oder Adjazenzmatrix"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 209,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welchen Speicherbedarf besitzt die Breitensuche im Worst Case zusätzlich zur Graphrepräsentation?",
+    "antworten": [
+      "O(|V|)",
+      "O(log |V|)",
+      "O(1)",
+      "O(|E|²)"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 210,
+    "kategorie": "Algorithmen und Datenstrukturen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Traversierung verwendet eine Queue anstelle eines Stacks?",
+    "antworten": [
+      "Preorder",
+      "Breitensuche (BFS)",
+      "Inorder",
+      "Postorder"
+    ],
+    "korrekt": 1
+  }
+]

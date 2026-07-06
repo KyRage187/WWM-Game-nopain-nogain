@@ -1,0 +1,392 @@
+[
+  {
+    "id": 91,
+    "kategorie": "Analysis",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt ein Taylorpolynom?",
+    "antworten": [
+      "Eine Matrixzerlegung",
+      "Die lokale Approximation einer Funktion",
+      "Die Lösung eines Integrals",
+      "Eine Norm"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 92,
+    "kategorie": "Analysis",
+    "schwierigkeit": "leicht",
+    "frage": "Wozu dient das Restglied beim Taylorpolynom?",
+    "antworten": [
+      "Zur Integration",
+      "Zur Richtungsableitung",
+      "Zur Normberechnung",
+      "Zur Abschätzung des Approximationsfehlers"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 93,
+    "kategorie": "Analysis",
+    "schwierigkeit": "leicht",
+    "frage": "Was bedeutet Stetigkeit in mehreren Variablen?",
+    "antworten": [
+      "Die Funktion ist linear",
+      "Die Funktion ist beschränkt",
+      "Grenzwert stimmt mit Funktionswert überein",
+      "Alle Ableitungen sind null"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 94,
+    "kategorie": "Analysis",
+    "schwierigkeit": "leicht",
+    "frage": "Was ist eine partielle Ableitung?",
+    "antworten": [
+      "Ein Integral",
+      "Ableitung nach einer Variablen bei konstanten übrigen Variablen",
+      "Eine Norm",
+      "Ableitung aller Variablen gleichzeitig"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 95,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Was ist der Gradient?",
+    "antworten": [
+      "Ein Skalarprodukt",
+      "Eine Integralfunktion",
+      "Die zweite Ableitung",
+      "Der Vektor aller partiellen Ableitungen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 96,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Richtung beschreibt der Gradient?",
+    "antworten": [
+      "Die Richtung des stärksten Anstiegs",
+      "Die Integrationsrichtung",
+      "Eine Tangente zur Achse",
+      "Die Richtung kleinster Krümmung"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 97,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Wann konvergiert eine Folge im R^d?",
+    "antworten": [
+      "Wenn ihre Norm wächst",
+      "Wenn sie monoton ist",
+      "Wenn sie beschränkt ist",
+      "Wenn alle Koordinatenfolgen konvergieren"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 98,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Was ist eine offene Menge?",
+    "antworten": [
+      "Sie ist konvex",
+      "Sie enthält ihren Rand",
+      "Jeder Punkt besitzt eine vollständig enthaltene Umgebung",
+      "Sie ist endlich"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 99,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Wann existiert ein Grenzwert mehrdimensional nicht?",
+    "antworten": [
+      "Wenn verschiedene Wege zu verschiedenen Grenzwerten führen",
+      "Wenn die Norm endlich ist",
+      "Wenn die Funktion stetig ist",
+      "Wenn der Gradient existiert"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 100,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Was beschreibt ein Kurvenintegral?",
+    "antworten": [
+      "Ein Integral nur über Rechtecke",
+      "Eine partielle Ableitung",
+      "Eine Taylorentwicklung",
+      "Ein Integral entlang einer Kurve"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 101,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (11)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie verzichtet auf Grenzwerte"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 102,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (12)",
+    "antworten": [
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 103,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (13)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 104,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (14)",
+    "antworten": [
+      "Sie verzichtet auf Grenzwerte",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 105,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (15)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 106,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (16)",
+    "antworten": [
+      "Sie verzichtet auf Grenzwerte",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 107,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (17)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verzichtet auf Grenzwerte"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 108,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (18)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 109,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (19)",
+    "antworten": [
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 110,
+    "kategorie": "Analysis",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zur Analysis trifft zu? (20)",
+    "antworten": [
+      "Sie verzichtet auf Grenzwerte",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 111,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (21)",
+    "antworten": [
+      "Sie verzichtet auf Grenzwerte",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie behandelt ausschließlich Matrizen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 112,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (22)",
+    "antworten": [
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 113,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (23)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie verzichtet auf Grenzwerte"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 114,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (24)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 115,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (25)",
+    "antworten": [
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verzichtet auf Grenzwerte"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 116,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (26)",
+    "antworten": [
+      "Sie verzichtet auf Grenzwerte",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 117,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (27)",
+    "antworten": [
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie behandelt ausschließlich Matrizen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 118,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (28)",
+    "antworten": [
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verzichtet auf Grenzwerte",
+      "Sie definiert nur lineare Gleichungen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 119,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (29)",
+    "antworten": [
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie verzichtet auf Grenzwerte"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 120,
+    "kategorie": "Analysis",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zur Analysis trifft zu? (30)",
+    "antworten": [
+      "Sie verallgemeinert Analysis auf mehrere Variablen",
+      "Sie definiert nur lineare Gleichungen",
+      "Sie behandelt ausschließlich Matrizen",
+      "Sie verzichtet auf Grenzwerte"
+    ],
+    "korrekt": 0
+  }
+]

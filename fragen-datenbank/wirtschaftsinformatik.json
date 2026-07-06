@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür steht ERP?",
+    "antworten": [
+      "Electronic Resource Process",
+      "Enterprise Routing Protocol",
+      "Enterprise Resource Planning",
+      "Extended Resource Platform"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 2,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Ebene unterstützt die tägliche Arbeit?",
+    "antworten": [
+      "Strategische Ebene",
+      "Operative Ebene",
+      "Normative Ebene",
+      "Visionsebene"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 3,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welches System verwaltet Kundenbeziehungen?",
+    "antworten": [
+      "ERP",
+      "CRM",
+      "MES",
+      "BI"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 4,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt eine Entität im ER-Modell?",
+    "antworten": [
+      "Eine Programmiersprache",
+      "Ein Betriebssystem",
+      "Ein Netzwerk",
+      "Ein eindeutig identifizierbares Objekt"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 5,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Daten ändern sich selten?",
+    "antworten": [
+      "Bewegungsdaten",
+      "Sensordaten",
+      "Stammdaten",
+      "Logdaten"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 6,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür steht BI?",
+    "antworten": [
+      "Business Intelligence",
+      "Business Integration",
+      "Binary Interface",
+      "Basic Information"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 7,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Was ist ein Primärziel von Lean?",
+    "antworten": [
+      "Verschwendung reduzieren",
+      "Steuern erhöhen",
+      "Hardware austauschen",
+      "Mitarbeiterzahl erhöhen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 8,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Methode sammelt Anforderungen direkt von Stakeholdern?",
+    "antworten": [
+      "Defragmentierung",
+      "Interviews",
+      "Compilieren",
+      "Load Balancing"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 9,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Pyramide beschreibt den Weg von Daten zu Wissen?",
+    "antworten": [
+      "Maslow-Pyramide",
+      "DIKW-Pyramide",
+      "Porter-Pyramide",
+      "Eisbergmodell"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 10,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "leicht",
+    "frage": "Was verwaltet ein HRM-System?",
+    "antworten": [
+      "Lieferketten",
+      "Mitarbeitende",
+      "Maschinen",
+      "Marketingkampagnen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 11,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Anforderung beschreibt Antwortzeit unter 200 ms?",
+    "antworten": [
+      "Funktionale Anforderung",
+      "Nicht-funktionale Anforderung",
+      "Geschäftsregel",
+      "Use Case"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 12,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Beziehung hat Kunde zu Bestellungen?",
+    "antworten": [
+      "1:1",
+      "n:m",
+      "0:1",
+      "1:n"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 13,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche DMAIC-Phase sucht die Fehlerursache?",
+    "antworten": [
+      "Control",
+      "Define",
+      "Improve",
+      "Analyze"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 14,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Verschwendungsart gilt als schlimmste?",
+    "antworten": [
+      "Transport",
+      "Motion",
+      "Over-Production",
+      "Waiting"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 15,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welches System liest Daten aus anderen Systemen und schreibt nichts zurück?",
+    "antworten": [
+      "CRM",
+      "MES",
+      "BI",
+      "SCM"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 16,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Was beschreibt SIPOC mit dem Buchstaben C?",
+    "antworten": [
+      "Control",
+      "Code",
+      "Capability",
+      "Customer"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 17,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Was ist das Ziel eines Business Case?",
+    "antworten": [
+      "Investitionsentscheidung unterstützen",
+      "Quellcode erzeugen",
+      "Daten komprimieren",
+      "Server überwachen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 18,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Formel nutzt eine User Story?",
+    "antworten": [
+      "Wenn Dann Sonst",
+      "Als Rolle möchte ich Ziel um Nutzen",
+      "Input Prozess Output",
+      "Wer Was Wann"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 19,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Wissensart ist personengebunden?",
+    "antworten": [
+      "Explizites Wissen",
+      "Metadaten",
+      "Implizites Wissen",
+      "Stammdaten"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 20,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welches System plant Material entlang der Lieferkette?",
+    "antworten": [
+      "SCM",
+      "CRM",
+      "HRM",
+      "BI"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 21,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Ebene nutzt stark verdichtete Daten für langfristige Entscheidungen?",
+    "antworten": [
+      "Operative Ebene",
+      "Ausführungsebene",
+      "Strategische Ebene",
+      "Serviceebene"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 22,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Datenart beschreibt Struktur und Herkunft von Datenfeldern?",
+    "antworten": [
+      "Stammdaten",
+      "Bewegungsdaten",
+      "Transaktionsdaten",
+      "Metadaten"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 23,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Modalverb-Bedeutung hat 'soll' nach Rupp?",
+    "antworten": [
+      "Stark erwünscht",
+      "Pflicht",
+      "Optional",
+      "Verboten"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 24,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche TIMWOODS-Art beschreibt ungenutzte Fähigkeiten?",
+    "antworten": [
+      "Inventory",
+      "Transport",
+      "Defects",
+      "Skills"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 25,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welcher Prozessschritt folgt im Zusammenhangsmodell direkt auf ROI?",
+    "antworten": [
+      "Business Case",
+      "Projektmanagement",
+      "Systemauswahl",
+      "Go-Live"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 26,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Was meldet ein MES an das SCM zurück?",
+    "antworten": [
+      "Kundenzufriedenheit",
+      "Tatsächlich produzierte Mengen",
+      "Marketingbudget",
+      "Bewerbungen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 27,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Warum sind definierte Prozesse für Data Science wichtig?",
+    "antworten": [
+      "Sie erhöhen automatisch Gewinne",
+      "Sie ersetzen Datenbanken",
+      "Sie vermeiden Hardware",
+      "Sie liefern strukturierte Trainingsdaten"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 28,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Ebene des Pyramidenmodells nutzen Executive Dashboards?",
+    "antworten": [
+      "Strategische Ebene",
+      "Operative Ebene",
+      "Werkstattebene",
+      "Serviceebene"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 29,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welches Dokument beschreibt was der Kunde will?",
+    "antworten": [
+      "Lastenheft",
+      "Pflichtenheft",
+      "Testprotokoll",
+      "Deploymentplan"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 30,
+    "kategorie": "Wirtschaftsinformatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welcher Bestandteil gehört laut Portfolioanforderung zur Fallstudie?",
+    "antworten": [
+      "Marketingplan",
+      "Jahresabschluss",
+      "ER-Datenmodell",
+      "Organigramm"
+    ],
+    "korrekt": 2
+  }
+]

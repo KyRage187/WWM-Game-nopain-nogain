@@ -1,0 +1,392 @@
+[
+  {
+    "id": 151,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Woraus besteht jedes Optimierungsmodell?",
+    "antworten": [
+      "Daten, Entscheidungsvariablen, Zielfunktion und Restriktionen",
+      "Nur aus einer Zielfunktion",
+      "Nur aus Entscheidungsvariablen",
+      "Aus Daten und einem Algorithmus"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 152,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt die zulässige Menge?",
+    "antworten": [
+      "Alle möglichen Optimalpunkte",
+      "Alle Punkte, die sämtliche Restriktionen erfüllen",
+      "Alle ganzzahligen Lösungen",
+      "Alle lokalen Minima"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 153,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Größe wird durch die Zielfunktion optimiert?",
+    "antworten": [
+      "Die Anzahl der Restriktionen",
+      "Der Gradient",
+      "Die zu minimierende oder maximierende Zielgröße",
+      "Die Dimension des Problems"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 154,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aussage trifft auf Entscheidungsvariablen zu?",
+    "antworten": [
+      "Sie beschreiben bekannte Daten",
+      "Sie legen Restriktionen fest",
+      "Sie bestimmen den Optimalwert direkt",
+      "Sie sind die Freiheitsgrade des Optimierungsproblems"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 155,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Eigenschaft besitzt die Hesse-Matrix einer zweimal stetig differenzierbaren Funktion?",
+    "antworten": [
+      "Sie ist stets symmetrisch",
+      "Sie ist immer diagonal",
+      "Sie besitzt nur positive Eigenwerte",
+      "Sie ist immer invertierbar"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 156,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Der Gradient steht ...",
+    "antworten": [
+      "parallel zur Höhenlinie",
+      "senkrecht auf der Höhenlinie",
+      "immer in Richtung der x-Achse",
+      "immer in Richtung der y-Achse"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 157,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt ein Optimalwert?",
+    "antworten": [
+      "Die Anzahl der Iterationen",
+      "Die Dimension des Problems",
+      "Den Zielfunktionswert eines Optimalpunkts",
+      "Den Gradienten im Minimum"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 158,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aussage über Optimalpunkte ist richtig?",
+    "antworten": [
+      "Es gibt immer genau einen",
+      "Sie existieren nur bei LPs",
+      "Optimalpunkte sind immer ganzzahlig",
+      "Sie müssen nicht eindeutig sein"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 159,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Art von Zielfunktion besitzt ein lineares Optimierungsproblem?",
+    "antworten": [
+      "Eine lineare Zielfunktion",
+      "Eine quadratische Zielfunktion",
+      "Eine exponentielle Zielfunktion",
+      "Beliebige Zielfunktionen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 160,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "leicht",
+    "frage": "Wann ist eine Menge konvex?",
+    "antworten": [
+      "Wenn sie endlich viele Punkte enthält",
+      "Wenn jede Verbindungsstrecke zweier Punkte vollständig in der Menge liegt",
+      "Wenn sie symmetrisch ist",
+      "Wenn sie beschränkt ist"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 161,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Bedingung ist für die Konvexität einer quadratischen Funktion notwendig?",
+    "antworten": [
+      "Der Gradient muss verschwinden",
+      "Alle Restriktionen müssen linear sein",
+      "Die Hesse-Matrix ist positiv semidefinit",
+      "Alle Variablen sind ganzzahlig"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 162,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Wie lässt sich |x| ≤ 2 als lineare Restriktion formulieren?",
+    "antworten": [
+      "x² ≤ 4",
+      "|x| ≥ 2",
+      "x ≤ 2",
+      "-2 ≤ x ≤ 2"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 163,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welcher Begriff bezeichnet die Umformulierung eines Maximums in der Zielfunktion mithilfe einer zusätzlichen Variablen?",
+    "antworten": [
+      "Epigraph-Umformulierung",
+      "Big-M-Methode",
+      "Simplex-Verfahren",
+      "Pivotisierung"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 164,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Zusatzvariable wird häufig für logische Oder-Bedingungen eingeführt?",
+    "antworten": [
+      "Eine stetige Hilfsvariable",
+      "Eine Binärvariable",
+      "Eine Slack-Variable",
+      "Eine Dualvariable"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 165,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Problemklasse beschreibt die Auswahl von Gegenständen bei begrenzter Kapazität?",
+    "antworten": [
+      "Transportproblem",
+      "Zuordnungsproblem",
+      "Knapsack-Problem",
+      "Matching-Problem"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 166,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Eigenschaft besitzen kritische Punkte einer konvexen differenzierbaren Funktion?",
+    "antworten": [
+      "Sie sind immer Sattelpunkte",
+      "Sie sind genau die Minimalpunkte",
+      "Sie sind immer Maximalpunkte",
+      "Sie existieren nur bei LPs"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 167,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage gilt für die Eigenwerte der Hesse-Matrix einer konvexen Funktion?",
+    "antworten": [
+      "Mindestens ein Eigenwert ist negativ",
+      "Alle Eigenwerte sind positiv",
+      "Alle Eigenwerte sind nichtnegativ",
+      "Alle Eigenwerte sind verschieden"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 168,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Matrix wird zur Darstellung quadratischer Zielfunktionen verwendet?",
+    "antworten": [
+      "Hesse-Matrix",
+      "Einheitsmatrix",
+      "Diagonalmatrix",
+      "Q-Matrix"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 169,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Problemklasse besitzt ausschließlich lineare Restriktionen und eine lineare Zielfunktion?",
+    "antworten": [
+      "Lineare Optimierungsprobleme (LP)",
+      "Quadratische Optimierungsprobleme",
+      "Nichtlineare Regression",
+      "Dynamische Optimierung"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 170,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "mittel",
+    "frage": "Warum wird bei der Epigraph-Umformulierung eine zusätzliche Variable eingeführt?",
+    "antworten": [
+      "Zur Berechnung der Hesse-Matrix",
+      "Um einen nichtlinearen Maximumsausdruck linear zu modellieren",
+      "Damit ganzzahlige Variablen entfallen",
+      "Zur Bestimmung der Eigenwerte"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 171,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Eigenschaft besitzt der Epigraph einer konvexen Funktion?",
+    "antworten": [
+      "Er ist stets beschränkt",
+      "Er ist immer symmetrisch",
+      "Er ist eine konvexe Menge",
+      "Er besteht nur aus Optimalpunkten"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 172,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welches Verfahren wird verwendet, um logische Oder-Bedingungen in MILPs zu modellieren?",
+    "antworten": [
+      "Gradientenverfahren",
+      "Epigraph-Umformulierung",
+      "Pivotisierung",
+      "Big-M-Methode"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 173,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Fehlergröße wird bei der Least-Absolute-Deviations-Regression minimiert?",
+    "antworten": [
+      "Die Summe absoluter Abweichungen",
+      "Die Summe quadratischer Abweichungen",
+      "Die maximale Abweichung",
+      "Der mittlere relative Fehler"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 174,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welchen Vorteil besitzt die LAD-Regression gegenüber der MSE-Regression?",
+    "antworten": [
+      "Sie benötigt keine Zielfunktion",
+      "Sie reagiert weniger empfindlich auf Ausreißer",
+      "Sie liefert immer eine lineare Lösung",
+      "Sie besitzt keine Restriktionen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 175,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Warum dürfen Produkte zweier Binärvariablen in einem MILP nicht direkt auftreten?",
+    "antworten": [
+      "Sie führen zu ganzzahligen Lösungen",
+      "Sie verändern die Zielfunktion",
+      "Sie sind nicht linear",
+      "Sie verletzen die Konvexität jeder Lösung"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 176,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Größe wird bei der linearen Regression typischerweise bestimmt?",
+    "antworten": [
+      "Nur der Achsenabschnitt",
+      "Nur die Steigung",
+      "Nur der Mittelwert",
+      "Steigung und Achsenabschnitt"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 177,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage über LPs ist richtig?",
+    "antworten": [
+      "Die zulässige Menge ist konvex",
+      "Alle Variablen müssen binär sein",
+      "Die Zielfunktion ist quadratisch",
+      "Es existiert immer genau eine Lösung"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 178,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage beschreibt den Mittelwert quadratischer Fehler korrekt?",
+    "antworten": [
+      "Ausreißer werden kaum berücksichtigt",
+      "Ausreißer werden stärker gewichtet",
+      "Nur negative Fehler werden berücksichtigt",
+      "Alle Fehler werden ignoriert"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 179,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Bedingung gilt für eine positiv semidefinite Matrix?",
+    "antworten": [
+      "Alle Determinanten sind positiv",
+      "Alle Diagonalelemente sind positiv",
+      "Für alle x gilt xᵀQx ≥ 0",
+      "Sie besitzt ausschließlich positive Einträge"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 180,
+    "kategorie": "Optimierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage beschreibt ein unbeschränktes Optimierungsproblem?",
+    "antworten": [
+      "Die zulässige Menge ist leer",
+      "Es existieren mehrere Optimalpunkte",
+      "Die Zielfunktion ist nicht differenzierbar",
+      "Es existiert kein endlicher Optimalwert"
+    ],
+    "korrekt": 3
+  }
+]

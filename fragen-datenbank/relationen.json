@@ -1,0 +1,392 @@
+[
+  {
+    "id": 121,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "leicht",
+    "frage": "Was ist eine mathematische Aussage?",
+    "antworten": [
+      "Eine Funktion",
+      "Eine Menge",
+      "Eine beliebige Frage",
+      "Eine Aussage, die wahr oder falsch ist"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 122,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "leicht",
+    "frage": "Was bezeichnet ¬A?",
+    "antworten": [
+      "Die Negation von A",
+      "Die Implikation",
+      "Die Disjunktion",
+      "Die Konjunktion"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 123,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür steht ∧?",
+    "antworten": [
+      "Äquivalenz",
+      "Disjunktion (ODER)",
+      "Negation",
+      "Konjunktion (UND)"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 124,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür steht ∨?",
+    "antworten": [
+      "Implikation",
+      "Konjunktion (UND)",
+      "Disjunktion (ODER)",
+      "Negation"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 125,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Was ist eine Implikation A⇒B?",
+    "antworten": [
+      "A ist falsch",
+      "Wenn A gilt, folgt B",
+      "B ist immer wahr",
+      "A und B sind identisch"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 126,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Was ist eine notwendige Bedingung?",
+    "antworten": [
+      "B in A⇒B",
+      "Eine Menge",
+      "A in A⇒B",
+      "Eine Negation"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 127,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Was zeigt die Kontrapositionsregel?",
+    "antworten": [
+      "Aus A folgt ¬A",
+      "Aus A⇒B folgt ¬B⇒¬A",
+      "Aus A⇒B folgt B⇒A",
+      "Aus B folgt A"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 128,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Was ist der Induktionsanfang?",
+    "antworten": [
+      "Nachweis des ersten Falls",
+      "Kontraposition",
+      "Letzter Beweisschritt",
+      "Widerspruch"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 129,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Was ist das Ziel des Induktionsschlusses?",
+    "antworten": [
+      "A(1) widerlegen",
+      "Eine Matrix bilden",
+      "A(m)⇒A(m+1) zeigen",
+      "Eine Menge definieren"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 130,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Was ist ein Widerspruchsbeweis?",
+    "antworten": [
+      "Numerische Näherung",
+      "Annahme führt zu Widerspruch",
+      "Graphischer Beweis",
+      "Beweis durch Beispiel"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 131,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (11)",
+    "antworten": [
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie behandelt nur Geometrie",
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 132,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (12)",
+    "antworten": [
+      "Sie nutzt keine Beweise",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie verzichtet auf Logik",
+      "Sie behandelt nur Geometrie"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 133,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (13)",
+    "antworten": [
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise",
+      "Sie behandelt nur Geometrie",
+      "Sie basiert auf formalen Regeln und Aussagen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 134,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (14)",
+    "antworten": [
+      "Sie verzichtet auf Logik",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie behandelt nur Geometrie",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 135,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (15)",
+    "antworten": [
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise",
+      "Sie behandelt nur Geometrie",
+      "Sie basiert auf formalen Regeln und Aussagen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 136,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (16)",
+    "antworten": [
+      "Sie nutzt keine Beweise",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie verzichtet auf Logik",
+      "Sie behandelt nur Geometrie"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 137,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (17)",
+    "antworten": [
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie nutzt keine Beweise",
+      "Sie behandelt nur Geometrie",
+      "Sie verzichtet auf Logik"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 138,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (18)",
+    "antworten": [
+      "Sie nutzt keine Beweise",
+      "Sie verzichtet auf Logik",
+      "Sie behandelt nur Geometrie",
+      "Sie basiert auf formalen Regeln und Aussagen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 139,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (19)",
+    "antworten": [
+      "Sie behandelt nur Geometrie",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 140,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (20)",
+    "antworten": [
+      "Sie behandelt nur Geometrie",
+      "Sie verzichtet auf Logik",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 141,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (21)",
+    "antworten": [
+      "Sie verzichtet auf Logik",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie nutzt keine Beweise",
+      "Sie behandelt nur Geometrie"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 142,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (22)",
+    "antworten": [
+      "Sie verzichtet auf Logik",
+      "Sie behandelt nur Geometrie",
+      "Sie nutzt keine Beweise",
+      "Sie basiert auf formalen Regeln und Aussagen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 143,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (23)",
+    "antworten": [
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise",
+      "Sie behandelt nur Geometrie"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 144,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (24)",
+    "antworten": [
+      "Sie behandelt nur Geometrie",
+      "Sie verzichtet auf Logik",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 145,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (25)",
+    "antworten": [
+      "Sie behandelt nur Geometrie",
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise",
+      "Sie basiert auf formalen Regeln und Aussagen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 146,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (26)",
+    "antworten": [
+      "Sie verzichtet auf Logik",
+      "Sie behandelt nur Geometrie",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 147,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (27)",
+    "antworten": [
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise",
+      "Sie behandelt nur Geometrie"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 148,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (28)",
+    "antworten": [
+      "Sie behandelt nur Geometrie",
+      "Sie verzichtet auf Logik",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 149,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (29)",
+    "antworten": [
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie verzichtet auf Logik",
+      "Sie nutzt keine Beweise",
+      "Sie behandelt nur Geometrie"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 150,
+    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (30)",
+    "antworten": [
+      "Sie behandelt nur Geometrie",
+      "Sie verzichtet auf Logik",
+      "Sie basiert auf formalen Regeln und Aussagen",
+      "Sie nutzt keine Beweise"
+    ],
+    "korrekt": 2
+  }
+]
