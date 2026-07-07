@@ -3,12 +3,12 @@
     "id": 31,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Was beschreibt die Kondition eines Problems?",
+    "frage": "Was versteht man unter der Kondition eines mathematischen Problems?",
     "antworten": [
-      "Fehlerverstärkung durch Eingabefehler",
-      "Speicherbedarf",
-      "Anzahl der Iterationen",
-      "Programmlaufzeit"
+      "Die Empfindlichkeit der Lösung gegenüber kleinen Eingabefehlern",
+      "Die Laufzeit eines Algorithmus",
+      "Die Anzahl der Rechenschritte",
+      "Den benötigten Speicherplatz"
     ],
     "korrekt": 0
   },
@@ -16,38 +16,38 @@
     "id": 32,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Welche Fehlerquelle ist algorithmusunabhängig?",
+    "frage": "Welche Fehler entstehen unabhängig vom verwendeten Algorithmus?",
     "antworten": [
-      "Linkerfehler",
-      "Syntaxfehler",
+      "Rundungsfehler",
       "Eingabefehler",
-      "Compilerfehler"
+      "Abbruchfehler",
+      "Iterationsfehler"
     ],
-    "korrekt": 2
+    "korrekt": 1
   },
   {
     "id": 33,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Was untersucht die Stabilität?",
+    "frage": "Was beschreibt die Stabilität eines Algorithmus?",
     "antworten": [
-      "Grafikausgabe",
-      "Verhalten des Algorithmus bei Fehlern",
-      "CPU-Auslastung",
-      "Speichergröße"
+      "Seinen Speicherverbrauch",
+      "Seine Programmlänge",
+      "Wie stark vorhandene Fehler während der Berechnung verstärkt werden",
+      "Die Anzahl der Iterationen"
     ],
-    "korrekt": 1
+    "korrekt": 2
   },
   {
     "id": 34,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Was ist eine Gleitpunktzahl?",
+    "frage": "Welche Größe gehört zur Darstellung einer Gleitpunktzahl?",
     "antworten": [
-      "Ganzzahl",
-      "Komplexe Zahl",
-      "Binärer String",
-      "Darstellung mit Mantisse und Exponent"
+      "Determinante",
+      "Gradient",
+      "Norm",
+      "Mantisse"
     ],
     "korrekt": 3
   },
@@ -55,77 +55,77 @@
     "id": 35,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Wann ist ein Problem gut konditioniert?",
+    "frage": "Wann spricht man von einem gut konditionierten Problem?",
     "antworten": [
-      "Wenn es schnell läuft",
-      "Kleine Eingabefehler erzeugen kleine Ausgabefehler",
-      "Wenn Speicher frei ist",
-      "Wenn Matrix groß ist"
+      "Kleine Eingabefehler führen nur zu kleinen Ausgabefehlern",
+      "Der Algorithmus besitzt lineare Laufzeit",
+      "Die Matrix ist symmetrisch",
+      "Die Berechnung benötigt wenig Speicher"
     ],
-    "korrekt": 1
+    "korrekt": 0
   },
   {
     "id": 36,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Welche Größe gehört zur Gleitpunktdarstellung?",
+    "frage": "Welche Ursache führt typischerweise zu Rundungsfehlern?",
     "antworten": [
-      "Gradient",
-      "Determinante",
-      "Mantisse",
-      "Eigenwert"
+      "Fehlerhafte Compiler",
+      "Endliche Genauigkeit der Gleitpunktdarstellung",
+      "Falsche Variablennamen",
+      "Unsortierte Daten"
     ],
-    "korrekt": 2
+    "korrekt": 1
   },
   {
     "id": 37,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Was bedeutet κ(A)?",
+    "frage": "Was bedeutet Maschinengenauigkeit?",
     "antworten": [
-      "Kondition einer Matrix",
-      "Spur der Matrix",
-      "Norm der Lösung",
-      "Rang einer Matrix"
+      "Die maximale Speichergröße",
+      "Die größte darstellbare Zahl",
+      "Der kleinste darstellbare relative Abstand zwischen zwei Zahlen",
+      "Die Anzahl der CPU-Kerne"
     ],
-    "korrekt": 0
+    "korrekt": 2
   },
   {
     "id": 38,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Welche Norm wird oft für die spektrale Kondition verwendet?",
+    "frage": "Was beschreibt die Konditionszahl κ(A) einer Matrix?",
     "antworten": [
-      "1-Norm",
-      "2-Norm",
-      "∞-Norm",
-      "Frobeniusnorm"
+      "Ihre Determinante",
+      "Ihre Spur",
+      "Ihren Rang",
+      "Die Empfindlichkeit der Lösung gegenüber Störungen"
     ],
-    "korrekt": 1
+    "korrekt": 3
   },
   {
     "id": 39,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Was passiert bei Auslöschung führender Ziffern?",
+    "frage": "Warum sind schlecht konditionierte Matrizen problematisch?",
     "antworten": [
-      "Speicher wächst",
-      "Matrix wird symmetrisch",
-      "Genauigkeit geht verloren",
-      "Iteration endet"
+      "Kleine Fehler können stark verstärkt werden",
+      "Sie besitzen immer negative Eigenwerte",
+      "Sie sind nie invertierbar",
+      "Sie verhindern Rundungsfehler"
     ],
-    "korrekt": 2
+    "korrekt": 0
   },
   {
     "id": 40,
     "kategorie": "Numerik",
     "schwierigkeit": "leicht",
-    "frage": "Welche Methode nutzt Taylorentwicklung zur Abschätzung?",
+    "frage": "Welches Verfahren dient zum Lösen linearer Gleichungssysteme?",
     "antworten": [
-      "QR-Zerlegung",
-      "Konditionsanalyse",
-      "Pivotisierung",
-      "FFT"
+      "Taylorentwicklung",
+      "Gauß-Elimination",
+      "Newton-Cotes-Formel",
+      "Bisektionsverfahren"
     ],
     "korrekt": 1
   },
@@ -133,116 +133,116 @@
     "id": 41,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (11)",
+    "frage": "Warum wird beim Gauß-Verfahren pivotisiert?",
     "antworten": [
-      "Sie vermeiden jede Rundung",
-      "Sie arbeiten nur symbolisch",
-      "Sie benötigen keine Daten",
-      "Sie liefern Näherungslösungen"
+      "Um Speicherplatz zu sparen",
+      "Um die Matrix symmetrisch zu machen",
+      "Um numerische Stabilität zu verbessern und Rundungsfehler zu reduzieren",
+      "Um Determinanten direkt zu berechnen"
     ],
-    "korrekt": 3
+    "korrekt": 2
   },
   {
     "id": 42,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (12)",
+    "frage": "Welche Eigenschaft besitzt die LU-Zerlegung?",
     "antworten": [
-      "Sie vermeiden jede Rundung",
-      "Sie arbeiten nur symbolisch",
-      "Sie liefern Näherungslösungen",
-      "Sie benötigen keine Daten"
+      "Sie liefert Eigenwerte",
+      "Sie berechnet Integrale",
+      "Sie bestimmt Nullstellen",
+      "Sie zerlegt eine Matrix in eine untere und eine obere Dreiecksmatrix"
     ],
-    "korrekt": 2
+    "korrekt": 3
   },
   {
     "id": 43,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (13)",
+    "frage": "Was beschreibt der Vorwärtsfehler?",
     "antworten": [
-      "Sie vermeiden jede Rundung",
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie benötigen keine Daten"
+      "Die Abweichung zwischen exakter und berechneter Lösung",
+      "Den Fehler der Eingabedaten",
+      "Die Anzahl der Iterationen",
+      "Die Größe der Matrix"
     ],
-    "korrekt": 1
+    "korrekt": 0
   },
   {
     "id": 44,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (14)",
+    "frage": "Was versteht man unter dem Rückwärtsfehler?",
     "antworten": [
-      "Sie benötigen keine Daten",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung",
-      "Sie liefern Näherungslösungen"
+      "Den Fehler nach jeder Iteration",
+      "Die kleinste Änderung der Eingabedaten, die die berechnete Lösung exakt macht",
+      "Die Differenz zweier Matrizen",
+      "Die Rundung der Endlösung"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
     "id": 45,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (15)",
+    "frage": "Welche Eigenschaft besitzt das Newton-Verfahren in der Nähe einer einfachen Nullstelle?",
     "antworten": [
-      "Sie vermeiden jede Rundung",
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie benötigen keine Daten"
+      "Lineare Konvergenz",
+      "Gar keine Konvergenz",
+      "Quadratische Konvergenz",
+      "Exponentielle Divergenz"
     ],
-    "korrekt": 1
+    "korrekt": 2
   },
   {
     "id": 46,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (16)",
+    "frage": "Welche Voraussetzung ist für das Newton-Verfahren besonders wichtig?",
     "antworten": [
-      "Sie benötigen keine Daten",
-      "Sie vermeiden jede Rundung",
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch"
+      "Die Funktion muss stetig differenzierbar sein und die Ableitung nahe der Nullstelle darf nicht verschwinden",
+      "Die Funktion muss periodisch sein",
+      "Die Funktion muss linear sein",
+      "Die Nullstelle muss im Ursprung liegen"
     ],
-    "korrekt": 2
+    "korrekt": 0
   },
   {
     "id": 47,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (17)",
+    "frage": "Welchen Vorteil besitzt das Bisektionsverfahren?",
     "antworten": [
-      "Sie vermeiden jede Rundung",
-      "Sie arbeiten nur symbolisch",
-      "Sie benötigen keine Daten",
-      "Sie liefern Näherungslösungen"
+      "Es konvergiert quadratisch",
+      "Es konvergiert zuverlässig, sofern ein Vorzeichenwechsel vorliegt",
+      "Es benötigt keine Funktionsauswertungen",
+      "Es funktioniert für jede beliebige Funktion"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
     "id": 48,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (18)",
+    "frage": "Wann kann beim Newton-Verfahren Divergenz auftreten?",
     "antworten": [
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung",
-      "Sie benötigen keine Daten"
+      "Wenn die Matrix symmetrisch ist",
+      "Wenn die Nullstelle mehrfach ist",
+      "Wenn der Startwert ungünstig gewählt wurde",
+      "Wenn die Funktion stetig ist"
     ],
-    "korrekt": 0
+    "korrekt": 2
   },
   {
     "id": 49,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (19)",
+    "frage": "Welche Aussage beschreibt das Sekantenverfahren?",
     "antworten": [
-      "Sie vermeiden jede Rundung",
-      "Sie arbeiten nur symbolisch",
-      "Sie benötigen keine Daten",
-      "Sie liefern Näherungslösungen"
+      "Es benötigt die zweite Ableitung",
+      "Es arbeitet ausschließlich mit Matrizen",
+      "Es besitzt immer quadratische Konvergenz",
+      "Es ersetzt die Ableitung durch eine Sekantensteigung"
     ],
     "korrekt": 3
   },
@@ -250,64 +250,64 @@
     "id": 50,
     "kategorie": "Numerik",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (20)",
+    "frage": "Warum werden Iterationsverfahren eingesetzt?",
     "antworten": [
-      "Sie arbeiten nur symbolisch",
-      "Sie liefern Näherungslösungen",
-      "Sie vermeiden jede Rundung",
-      "Sie benötigen keine Daten"
+      "Um schrittweise Näherungslösungen zu berechnen",
+      "Um Matrizen zu transponieren",
+      "Um Rundungsfehler vollständig zu vermeiden",
+      "Um Determinanten schneller auszurechnen"
     ],
-    "korrekt": 1
+    "korrekt": 0
   },
   {
     "id": 51,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (21)",
+    "frage": "Welche Eigenschaft besitzt die QR-Zerlegung?",
     "antworten": [
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung",
-      "Sie liefern Näherungslösungen",
-      "Sie benötigen keine Daten"
+      "Sie liefert ausschließlich Eigenwerte",
+      "Sie zerlegt eine Matrix in eine orthogonale und eine obere Dreiecksmatrix",
+      "Sie berechnet nur Determinanten",
+      "Sie funktioniert ausschließlich für Diagonalmatrizen"
     ],
-    "korrekt": 2
+    "korrekt": 1
   },
   {
     "id": 52,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (22)",
+    "frage": "Welche Aussage beschreibt die Cholesky-Zerlegung?",
     "antworten": [
-      "Sie benötigen keine Daten",
-      "Sie vermeiden jede Rundung",
-      "Sie arbeiten nur symbolisch",
-      "Sie liefern Näherungslösungen"
+      "Sie gilt für beliebige Matrizen",
+      "Sie zerlegt nur orthogonale Matrizen",
+      "Sie ist für symmetrische positiv definite Matrizen geeignet",
+      "Sie ersetzt das Gauß-Verfahren vollständig"
     ],
-    "korrekt": 3
+    "korrekt": 2
   },
   {
     "id": 53,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (23)",
+    "frage": "Warum werden iterative Verfahren bei sehr großen linearen Gleichungssystemen eingesetzt?",
     "antworten": [
-      "Sie benötigen keine Daten",
-      "Sie arbeiten nur symbolisch",
-      "Sie liefern Näherungslösungen",
-      "Sie vermeiden jede Rundung"
+      "Sie liefern immer exakte Lösungen",
+      "Sie benötigen keine Matrix",
+      "Sie vermeiden Rundungsfehler vollständig",
+      "Sie benötigen oft weniger Speicher als direkte Verfahren"
     ],
-    "korrekt": 2
+    "korrekt": 3
   },
   {
     "id": 54,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (24)",
+    "frage": "Welche Aussage beschreibt Konvergenz eines Iterationsverfahrens?",
     "antworten": [
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung",
-      "Sie benötigen keine Daten"
+      "Die Folge der Näherungen nähert sich der exakten Lösung an",
+      "Der Speicherverbrauch wächst unbegrenzt",
+      "Die Laufzeit ist konstant",
+      "Die Matrix wird diagonal"
     ],
     "korrekt": 0
   },
@@ -315,12 +315,12 @@
     "id": 55,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (25)",
+    "frage": "Wann gilt ein Iterationsverfahren als divergent?",
     "antworten": [
-      "Sie benötigen keine Daten",
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung"
+      "Wenn die Lösung sofort gefunden wird",
+      "Wenn sich die Näherungswerte von der Lösung entfernen oder nicht stabilisieren",
+      "Wenn nur wenige Iterationen nötig sind",
+      "Wenn Rundungsfehler auftreten"
     ],
     "korrekt": 1
   },
@@ -328,25 +328,25 @@
     "id": 56,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (26)",
+    "frage": "Welche Aussage beschreibt die Interpolation?",
     "antworten": [
-      "Sie liefern Näherungslösungen",
-      "Sie benötigen keine Daten",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung"
+      "Sie approximiert Integrale",
+      "Sie bestimmt Eigenwerte",
+      "Sie konstruiert eine Funktion, die vorgegebene Stützpunkte exakt trifft",
+      "Sie löst Differentialgleichungen"
     ],
-    "korrekt": 0
+    "korrekt": 2
   },
   {
     "id": 57,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (27)",
+    "frage": "Welchen Nachteil besitzt ein Interpolationspolynom hohen Grades?",
     "antworten": [
-      "Sie vermeiden jede Rundung",
-      "Sie benötigen keine Daten",
-      "Sie arbeiten nur symbolisch",
-      "Sie liefern Näherungslösungen"
+      "Es besitzt keine Nullstellen",
+      "Es ist immer unstetig",
+      "Es kann nur lineare Funktionen darstellen",
+      "Es kann starke Schwingungen zwischen den Stützstellen zeigen"
     ],
     "korrekt": 3
   },
@@ -354,12 +354,12 @@
     "id": 58,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (28)",
+    "frage": "Wofür wird numerische Integration verwendet?",
     "antworten": [
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung",
-      "Sie benötigen keine Daten"
+      "Zur näherungsweisen Berechnung bestimmter Integrale",
+      "Zur Berechnung von Eigenwerten",
+      "Zum Lösen linearer Gleichungssysteme",
+      "Zur Bestimmung der Konditionszahl"
     ],
     "korrekt": 0
   },
@@ -367,26 +367,26 @@
     "id": 59,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (29)",
+    "frage": "Welche Aussage beschreibt die Trapezregel?",
     "antworten": [
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung",
-      "Sie benötigen keine Daten"
+      "Sie berechnet Determinanten",
+      "Sie approximiert Integrale durch Trapezflächen",
+      "Sie löst Nullstellenprobleme",
+      "Sie bestimmt Eigenvektoren"
     ],
-    "korrekt": 0
+    "korrekt": 1
   },
   {
     "id": 60,
     "kategorie": "Numerik",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu numerischen Methoden trifft zu? (30)",
+    "frage": "Welches Ziel verfolgt die Fehleranalyse in der Numerik?",
     "antworten": [
-      "Sie liefern Näherungslösungen",
-      "Sie arbeiten nur symbolisch",
-      "Sie vermeiden jede Rundung",
-      "Sie benötigen keine Daten"
+      "Programme zu beschleunigen",
+      "Den Speicherbedarf zu minimieren",
+      "Entstehung und Auswirkung numerischer Fehler abzuschätzen",
+      "Die Anzahl der Variablen zu reduzieren"
     ],
-    "korrekt": 0
+    "korrekt": 2
   }
 ]

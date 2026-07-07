@@ -1,392 +1,783 @@
 [
+
   {
+
     "id": 61,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "leicht",
-    "frage": "Was beschreibt das Standardskalarprodukt?",
+
+    "frage": "Wann heißen zwei Vektoren orthogonal?",
+
     "antworten": [
-      "Die relative Lage zweier Vektoren",
-      "Die Determinante einer Matrix",
-      "Die Anzahl der Gleichungen",
-      "Den Rang einer Matrix"
+
+      "Wenn ihr Skalarprodukt gleich Null ist",
+
+      "Wenn sie dieselbe Länge besitzen",
+
+      "Wenn sie parallel verlaufen",
+
+      "Wenn ihre Summe der Nullvektor ist"
+
     ],
+
     "korrekt": 0
+
   },
+
   {
+
     "id": 62,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "leicht",
-    "frage": "Wann sind zwei Vektoren orthogonal?",
+
+    "frage": "Wie berechnet sich die euklidische Norm eines Vektors?",
+
     "antworten": [
-      "Wenn sie parallel sind",
-      "Wenn ihre Summe Null ist",
-      "Wenn ihr Skalarprodukt Null ist",
-      "Wenn sie gleich lang sind"
+
+      "Als Summe aller Komponenten",
+
+      "Als Quadratwurzel des Skalarprodukts mit sich selbst",
+
+      "Als Produkt aller Komponenten",
+
+      "Als Determinante des Vektors"
+
     ],
-    "korrekt": 2
+
+    "korrekt": 1
+
   },
+
   {
+
     "id": 63,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "leicht",
-    "frage": "Wie berechnet sich die Norm eines Vektors im Standardskalarprodukt?",
+
+    "frage": "Welche Matrix wird mit E bezeichnet?",
+
     "antworten": [
-      "Als Determinante",
-      "Als Spur der Matrix",
-      "Als Maximum der Einträge",
-      "Als Wurzel aus dem Skalarprodukt mit sich selbst"
+
+      "Eine Diagonalmatrix",
+
+      "Eine Nullmatrix",
+
+      "Die Einheitsmatrix",
+
+      "Eine Dreiecksmatrix"
+
     ],
-    "korrekt": 3
+
+    "korrekt": 2
+
   },
+
   {
+
     "id": 64,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "leicht",
-    "frage": "Welche Matrix erfüllt Aᵀ=A?",
+
+    "frage": "Wann ist eine Matrix symmetrisch?",
+
     "antworten": [
-      "Diagonalmatrix",
-      "Symmetrische Matrix",
-      "Einheitsmatrix",
-      "Dreiecksmatrix"
+
+      "Wenn sie invertierbar ist",
+
+      "Wenn alle Diagonalelemente gleich sind",
+
+      "Wenn ihre Determinante positiv ist",
+
+      "Wenn Aᵀ = A gilt"
+
     ],
-    "korrekt": 1
+
+    "korrekt": 3
+
   },
+
   {
+
     "id": 65,
+
     "kategorie": "Lineare Algebra",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Ungleichung beschränkt |⟨x,y⟩|?",
+
+    "schwierigkeit": "leicht",
+
+    "frage": "Welche Größe gibt die Dimension eines Vektorraums an?",
+
     "antworten": [
-      "Cauchy-Schwarz-Ungleichung",
-      "Bernoulli-Ungleichung",
-      "Jensen-Ungleichung",
-      "Mittelwertsatz"
+
+      "Die Anzahl der Basisvektoren",
+
+      "Die Determinante",
+
+      "Den Rang einer Matrix",
+
+      "Die Spur einer Matrix"
+
     ],
+
     "korrekt": 0
+
   },
+
   {
+
     "id": 66,
+
     "kategorie": "Lineare Algebra",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Eigenschaft besitzt eine Norm?",
+
+    "schwierigkeit": "leicht",
+
+    "frage": "Wann bilden Vektoren eine Basis?",
+
     "antworten": [
-      "Orthogonalität",
-      "Antisymmetrie",
-      "Dreiecksungleichung",
-      "Idempotenz"
+
+      "Wenn sie orthogonal sind",
+
+      "Wenn sie linear unabhängig sind und den Raum aufspannen",
+
+      "Wenn sie dieselbe Länge besitzen",
+
+      "Wenn ihre Summe Null ergibt"
+
     ],
-    "korrekt": 2
+
+    "korrekt": 1
+
   },
+
   {
+
     "id": 67,
+
     "kategorie": "Lineare Algebra",
-    "schwierigkeit": "mittel",
-    "frage": "Wie wird der Abstand in einem normierten Raum definiert?",
+
+    "schwierigkeit": "leicht",
+
+    "frage": "Was beschreibt der Rang einer Matrix?",
+
     "antworten": [
-      "Als Spur",
-      "Als Produkt der Normen",
-      "Als Determinante",
-      "Als Norm der Differenz"
+
+      "Die Anzahl ihrer Zeilen",
+
+      "Die Anzahl ihrer Spalten",
+
+      "Die maximale Anzahl linear unabhängiger Zeilen oder Spalten",
+
+      "Die Summe aller Matrixeinträge"
+
     ],
-    "korrekt": 3
+
+    "korrekt": 2
+
   },
+
   {
+
     "id": 68,
+
     "kategorie": "Lineare Algebra",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Norm erzeugt die Manhattan-Metrik?",
+
+    "schwierigkeit": "leicht",
+
+    "frage": "Wann ist eine quadratische Matrix invertierbar?",
+
     "antworten": [
-      "Frobeniusnorm",
-      "2-Norm",
-      "1-Norm",
-      "∞-Norm"
+
+      "Wenn ihre Spur positiv ist",
+
+      "Wenn sie symmetrisch ist",
+
+      "Wenn alle Einträge verschieden sind",
+
+      "Wenn ihre Determinante ungleich Null ist"
+
     ],
-    "korrekt": 2
+
+    "korrekt": 3
+
   },
+
   {
+
     "id": 69,
+
     "kategorie": "Lineare Algebra",
-    "schwierigkeit": "schwer",
-    "frage": "Wann ist eine Bilinearform positiv definit?",
+
+    "schwierigkeit": "leicht",
+
+    "frage": "Was beschreibt der Kern einer linearen Abbildung?",
+
     "antworten": [
-      "Wenn alle Einträge positiv sind",
-      "Wenn A diagonal ist",
-      "Wenn A invertierbar ist",
-      "Wenn s(x,x)>0 für alle x≠0"
+
+      "Alle Vektoren, die auf den Nullvektor abgebildet werden",
+
+      "Alle Eigenwerte",
+
+      "Alle Basisvektoren",
+
+      "Die Bildmenge"
+
     ],
-    "korrekt": 3
+
+    "korrekt": 0
+
   },
+
   {
+
     "id": 70,
+
     "kategorie": "Lineare Algebra",
-    "schwierigkeit": "schwer",
-    "frage": "Welche Aussage gilt für (AB)ᵀ?",
+
+    "schwierigkeit": "leicht",
+
+    "frage": "Was versteht man unter dem Bild einer linearen Abbildung?",
+
     "antworten": [
-      "BA",
-      "AᵀBᵀ",
-      "BᵀAᵀ",
-      "AB"
+
+      "Die Menge aller Eigenwerte",
+
+      "Die Menge aller erreichbaren Zielvektoren",
+
+      "Die Menge aller Nullvektoren",
+
+      "Die Menge aller Basen"
+
     ],
-    "korrekt": 2
+
+    "korrekt": 1
+
   },
+
   {
+
     "id": 71,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (11)",
+
+    "frage": "Welche Aussage beschreibt einen Eigenvektor korrekt?",
+
     "antworten": [
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie verzichtet auf Matrizen"
+
+      "Er verändert seine Richtung bei der Abbildung",
+
+      "Er besitzt immer die Länge 1",
+
+      "Er wird lediglich mit einem Skalar multipliziert",
+
+      "Er ist immer orthogonal zu allen anderen Vektoren"
+
     ],
-    "korrekt": 0
+
+    "korrekt": 2
+
   },
+
   {
+
     "id": 72,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (12)",
+
+    "frage": "Was ist ein Eigenwert?",
+
     "antworten": [
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie verzichtet auf Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie untersucht Vektoren und Matrizen"
+
+      "Der Rang einer Matrix",
+
+      "Die Determinante",
+
+      "Die Spur",
+
+      "Der Skalierungsfaktor eines Eigenvektors"
+
     ],
+
     "korrekt": 3
+
   },
+
   {
+
     "id": 73,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (13)",
+
+    "frage": "Welchen Zweck erfüllt das Gram-Schmidt-Verfahren?",
+
     "antworten": [
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie verzichtet auf Matrizen"
+
+      "Es erzeugt eine Orthonormalbasis",
+
+      "Es berechnet Determinanten",
+
+      "Es löst Differentialgleichungen",
+
+      "Es bestimmt Eigenwerte"
+
     ],
+
     "korrekt": 0
+
   },
+
   {
+
     "id": 74,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (14)",
+
+    "frage": "Welche Eigenschaft besitzt eine orthogonale Matrix?",
+
     "antworten": [
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie verzichtet auf Matrizen",
-      "Sie untersucht Vektoren und Matrizen"
+
+      "Sie besitzt nur positive Einträge",
+
+      "Es gilt AᵀA = E",
+
+      "Sie ist immer diagonal",
+
+      "Sie besitzt Rang 1"
+
     ],
-    "korrekt": 3
+
+    "korrekt": 1
+
   },
+
   {
+
     "id": 75,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (15)",
+
+    "frage": "Welche Aussage beschreibt die Cauchy-Schwarz-Ungleichung?",
+
     "antworten": [
-      "Sie verzichtet auf Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie nutzt keine linearen Abbildungen"
+
+      "Sie gilt nur für Matrizen",
+
+      "Sie beschreibt die Determinante",
+
+      "Sie beschränkt den Betrag des Skalarprodukts zweier Vektoren",
+
+      "Sie berechnet Eigenwerte"
+
     ],
+
     "korrekt": 2
+
   },
+
   {
+
     "id": 76,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (16)",
+
+    "frage": "Welche Bedingung garantiert die eindeutige Lösbarkeit eines linearen Gleichungssystems Ax = b?",
+
     "antworten": [
-      "Sie verzichtet auf Matrizen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie behandelt nur Differentialgleichungen"
+
+      "Die Matrix besitzt nur positive Einträge",
+
+      "Die Matrix ist invertierbar",
+
+      "Die Determinante ist gleich 1",
+
+      "Alle Zeilen sind orthogonal"
+
     ],
+
     "korrekt": 1
+
   },
+
   {
+
     "id": 77,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (17)",
+
+    "frage": "Was beschreibt die Spur einer quadratischen Matrix?",
+
     "antworten": [
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie verzichtet auf Matrizen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie behandelt nur Differentialgleichungen"
+
+      "Die Summe aller Matrixeinträge",
+
+      "Die Anzahl der Eigenwerte",
+
+      "Die Summe der Diagonalelemente",
+
+      "Den Rang der Matrix"
+
     ],
+
     "korrekt": 2
+
   },
+
   {
+
     "id": 78,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (18)",
+
+    "frage": "Welche Aussage gilt für die Determinante einer Matrix?",
+
     "antworten": [
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie verzichtet auf Matrizen"
+
+      "Sie existiert für jede Matrix",
+
+      "Sie entspricht immer dem Rang",
+
+      "Sie ist stets positiv",
+
+      "Ist sie Null, ist die Matrix nicht invertierbar"
+
     ],
-    "korrekt": 1
+
+    "korrekt": 3
+
   },
+
   {
+
     "id": 79,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (19)",
+
+    "frage": "Welche Aussage trifft auf linear abhängige Vektoren zu?",
+
     "antworten": [
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie verzichtet auf Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie untersucht Vektoren und Matrizen"
+
+      "Mindestens ein Vektor lässt sich als Linearkombination der anderen darstellen",
+
+      "Alle Vektoren besitzen dieselbe Länge",
+
+      "Sie sind paarweise orthogonal",
+
+      "Sie bilden immer eine Basis"
+
     ],
-    "korrekt": 3
+
+    "korrekt": 0
+
   },
+
   {
+
     "id": 80,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (20)",
+
+    "frage": "Welche Matrix beschreibt eine lineare Abbildung bezüglich gegebener Basen?",
+
     "antworten": [
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie verzichtet auf Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie nutzt keine linearen Abbildungen"
+
+      "Die Hesse-Matrix",
+
+      "Die Abbildungsmatrix",
+
+      "Die Korrelationsmatrix",
+
+      "Die Kovarianzmatrix"
+
     ],
-    "korrekt": 0
+
+    "korrekt": 1
+
   },
+
   {
+
     "id": 81,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (21)",
+
+    "frage": "Wann ist eine Matrix diagonalisierbar?",
+
     "antworten": [
-      "Sie verzichtet auf Matrizen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie nutzt keine linearen Abbildungen"
+
+      "Wenn sie symmetrisch ist",
+
+      "Wenn sie invertierbar ist",
+
+      "Wenn eine Basis aus Eigenvektoren existiert",
+
+      "Wenn ihre Determinante positiv ist"
+
     ],
-    "korrekt": 1
-  },
-  {
-    "id": 82,
-    "kategorie": "Lineare Algebra",
-    "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (22)",
-    "antworten": [
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie verzichtet auf Matrizen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie nutzt keine linearen Abbildungen"
-    ],
+
     "korrekt": 2
+
   },
+
   {
-    "id": 83,
+
+    "id": 82,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (23)",
+
+    "frage": "Welche Aussage gilt für symmetrische reelle Matrizen?",
+
     "antworten": [
-      "Sie verzichtet auf Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie untersucht Vektoren und Matrizen"
+
+      "Sie besitzen ausschließlich komplexe Eigenwerte",
+
+      "Sie sind nie diagonalisierbar",
+
+      "Sie besitzen immer Rang 1",
+
+      "Sie besitzen ausschließlich reelle Eigenwerte"
+
     ],
+
     "korrekt": 3
+
   },
+
   {
+
+    "id": 83,
+
+    "kategorie": "Lineare Algebra",
+
+    "schwierigkeit": "schwer",
+
+    "frage": "Welchen Vorteil besitzt eine Orthonormalbasis?",
+
+    "antworten": [
+
+      "Koordinaten lassen sich besonders einfach durch Skalarprodukte berechnen",
+
+      "Sie existiert nur im ℝ²",
+
+      "Sie besitzt immer genau drei Vektoren",
+
+      "Sie macht Determinanten überflüssig"
+
+    ],
+
+    "korrekt": 0
+
+  },
+
+  {
+
     "id": 84,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (24)",
+
+    "frage": "Welche Aussage beschreibt den Rang-Nullitätssatz?",
+
     "antworten": [
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie verzichtet auf Matrizen"
+
+      "Rang und Determinante sind identisch",
+
+      "Dimension = Rang + Dimension des Kerns",
+
+      "Der Rang entspricht der Spur",
+
+      "Der Kern ist immer eindimensional"
+
     ],
+
     "korrekt": 1
+
   },
+
   {
+
     "id": 85,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (25)",
+
+    "frage": "Welche Aussage gilt für positiv definite Matrizen?",
+
     "antworten": [
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie verzichtet auf Matrizen"
+
+      "Sie besitzen nur negative Eigenwerte",
+
+      "Sie sind immer singulär",
+
+      "Alle Eigenwerte sind positiv",
+
+      "Sie sind stets Dreiecksmatrizen"
+
     ],
-    "korrekt": 0
+
+    "korrekt": 2
+
   },
+
   {
+
     "id": 86,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (26)",
+
+    "frage": "Welche Aussage beschreibt den Spektralsatz?",
+
     "antworten": [
-      "Sie verzichtet auf Matrizen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie nutzt keine linearen Abbildungen"
+
+      "Jede Matrix besitzt dieselbe Determinante",
+
+      "Alle Matrizen sind invertierbar",
+
+      "Alle Matrizen sind diagonalisierbar",
+
+      "Symmetrische Matrizen besitzen eine Orthonormalbasis aus Eigenvektoren"
+
     ],
-    "korrekt": 1
+
+    "korrekt": 3
+
   },
+
   {
+
     "id": 87,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (27)",
+
+    "frage": "Welche Eigenschaft besitzt eine orthogonale Abbildung?",
+
     "antworten": [
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie verzichtet auf Matrizen",
-      "Sie nutzt keine linearen Abbildungen"
+
+      "Sie erhält Längen und Winkel",
+
+      "Sie verändert alle Eigenwerte zu Null",
+
+      "Sie vertauscht Zeilen und Spalten",
+
+      "Sie macht jede Matrix diagonal"
+
     ],
+
     "korrekt": 0
+
   },
+
   {
+
     "id": 88,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (28)",
+
+    "frage": "Welche Matrix beschreibt eine Drehung im ℝ²?",
+
     "antworten": [
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie verzichtet auf Matrizen",
-      "Sie nutzt keine linearen Abbildungen"
+
+      "Eine beliebige Diagonalmatrix",
+
+      "Eine orthogonale Matrix mit Determinante 1",
+
+      "Eine obere Dreiecksmatrix",
+
+      "Eine Matrix mit Rang 1"
+
     ],
+
     "korrekt": 1
+
   },
+
   {
+
     "id": 89,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (29)",
+
+    "frage": "Welche Aussage gilt für Eigenvektoren zu verschiedenen Eigenwerten einer symmetrischen Matrix?",
+
     "antworten": [
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie verzichtet auf Matrizen",
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie nutzt keine linearen Abbildungen"
+
+      "Sie sind linear abhängig",
+
+      "Sie besitzen gleiche Länge",
+
+      "Sie sind orthogonal",
+
+      "Sie sind identisch"
+
     ],
-    "korrekt": 0
+
+    "korrekt": 2
+
   },
+
   {
+
     "id": 90,
+
     "kategorie": "Lineare Algebra",
+
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Linearen Algebra trifft zu? (30)",
+
+    "frage": "Welchen Zweck erfüllt die QR-Zerlegung?",
+
     "antworten": [
-      "Sie behandelt nur Differentialgleichungen",
-      "Sie untersucht Vektoren und Matrizen",
-      "Sie nutzt keine linearen Abbildungen",
-      "Sie verzichtet auf Matrizen"
+
+      "Sie berechnet ausschließlich Determinanten",
+
+      "Sie bestimmt den Rang einer Matrix",
+
+      "Sie löst nur 2×2-Systeme",
+
+      "Sie zerlegt eine Matrix in eine orthogonale und eine obere Dreiecksmatrix"
+
     ],
-    "korrekt": 1
+
+    "korrekt": 3
+
   }
+
 ]

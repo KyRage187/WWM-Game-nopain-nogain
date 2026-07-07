@@ -3,38 +3,38 @@
     "id": 91,
     "kategorie": "Analysis",
     "schwierigkeit": "leicht",
-    "frage": "Was beschreibt ein Taylorpolynom?",
+    "frage": "Welche Information liefert der Gradient einer differenzierbaren Funktion?",
     "antworten": [
-      "Eine Matrixzerlegung",
-      "Die lokale Approximation einer Funktion",
-      "Die Lösung eines Integrals",
-      "Eine Norm"
+      "Die Richtung des stärksten Anstiegs",
+      "Den Funktionswert im Ursprung",
+      "Die Krümmung der Funktion",
+      "Die Länge einer Kurve"
     ],
-    "korrekt": 1
+    "korrekt": 0
   },
   {
     "id": 92,
     "kategorie": "Analysis",
     "schwierigkeit": "leicht",
-    "frage": "Wozu dient das Restglied beim Taylorpolynom?",
+    "frage": "Wann ist eine Funktion in einem Punkt stetig?",
     "antworten": [
-      "Zur Integration",
-      "Zur Richtungsableitung",
-      "Zur Normberechnung",
-      "Zur Abschätzung des Approximationsfehlers"
+      "Wenn alle partiellen Ableitungen existieren",
+      "Wenn Grenzwert und Funktionswert übereinstimmen",
+      "Wenn der Gradient verschwindet",
+      "Wenn die Funktion beschränkt ist"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
     "id": 93,
     "kategorie": "Analysis",
     "schwierigkeit": "leicht",
-    "frage": "Was bedeutet Stetigkeit in mehreren Variablen?",
+    "frage": "Welche Aussage beschreibt eine partielle Ableitung?",
     "antworten": [
-      "Die Funktion ist linear",
-      "Die Funktion ist beschränkt",
-      "Grenzwert stimmt mit Funktionswert überein",
-      "Alle Ableitungen sind null"
+      "Ableitung entlang einer Kurve",
+      "Ableitung nach allen Variablen gleichzeitig",
+      "Ableitung nach einer Variablen bei konstanten übrigen Variablen",
+      "Ableitung einer Matrix"
     ],
     "korrekt": 2
   },
@@ -42,103 +42,103 @@
     "id": 94,
     "kategorie": "Analysis",
     "schwierigkeit": "leicht",
-    "frage": "Was ist eine partielle Ableitung?",
+    "frage": "Was beschreibt ein Taylorpolynom?",
     "antworten": [
-      "Ein Integral",
-      "Ableitung nach einer Variablen bei konstanten übrigen Variablen",
-      "Eine Norm",
-      "Ableitung aller Variablen gleichzeitig"
+      "Eine Matrixzerlegung",
+      "Eine numerische Integration",
+      "Eine Nullstellenapproximation",
+      "Eine lokale Approximation einer Funktion"
     ],
-    "korrekt": 1
+    "korrekt": 3
   },
   {
     "id": 95,
     "kategorie": "Analysis",
-    "schwierigkeit": "mittel",
-    "frage": "Was ist der Gradient?",
+    "schwierigkeit": "leicht",
+    "frage": "Wozu dient das Restglied eines Taylorpolynoms?",
     "antworten": [
-      "Ein Skalarprodukt",
-      "Eine Integralfunktion",
-      "Die zweite Ableitung",
-      "Der Vektor aller partiellen Ableitungen"
-    ],
-    "korrekt": 3
-  },
-  {
-    "id": 96,
-    "kategorie": "Analysis",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Richtung beschreibt der Gradient?",
-    "antworten": [
-      "Die Richtung des stärksten Anstiegs",
-      "Die Integrationsrichtung",
-      "Eine Tangente zur Achse",
-      "Die Richtung kleinster Krümmung"
+      "Zur Abschätzung des Approximationsfehlers",
+      "Zur Berechnung des Gradienten",
+      "Zur Bestimmung einer Stammfunktion",
+      "Zur Berechnung einer Norm"
     ],
     "korrekt": 0
   },
   {
-    "id": 97,
+    "id": 96,
     "kategorie": "Analysis",
-    "schwierigkeit": "mittel",
-    "frage": "Wann konvergiert eine Folge im R^d?",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aussage gilt für Folgen im ℝⁿ?",
     "antworten": [
-      "Wenn ihre Norm wächst",
-      "Wenn sie monoton ist",
-      "Wenn sie beschränkt ist",
-      "Wenn alle Koordinatenfolgen konvergieren"
+      "Sie konvergieren immer",
+      "Sie konvergieren genau dann, wenn alle Komponentenfolgen konvergieren",
+      "Sie besitzen immer einen Grenzwert von 0",
+      "Sie müssen monoton sein"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
-    "id": 98,
+    "id": 97,
     "kategorie": "Analysis",
-    "schwierigkeit": "mittel",
-    "frage": "Was ist eine offene Menge?",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Eigenschaft besitzt eine offene Menge?",
     "antworten": [
-      "Sie ist konvex",
-      "Sie enthält ihren Rand",
+      "Sie enthält immer ihren Rand",
+      "Sie ist immer beschränkt",
       "Jeder Punkt besitzt eine vollständig enthaltene Umgebung",
-      "Sie ist endlich"
+      "Sie enthält nur endlich viele Punkte"
     ],
     "korrekt": 2
   },
   {
+    "id": 98,
+    "kategorie": "Analysis",
+    "schwierigkeit": "leicht",
+    "frage": "Wann heißt eine Menge abgeschlossen?",
+    "antworten": [
+      "Wenn sie konvex ist",
+      "Wenn sie beschränkt ist",
+      "Wenn sie offen ist",
+      "Wenn sie alle ihre Randpunkte enthält"
+    ],
+    "korrekt": 3
+  },
+  {
     "id": 99,
     "kategorie": "Analysis",
-    "schwierigkeit": "schwer",
-    "frage": "Wann existiert ein Grenzwert mehrdimensional nicht?",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aussage beschreibt eine Niveaufläche?",
     "antworten": [
-      "Wenn verschiedene Wege zu verschiedenen Grenzwerten führen",
-      "Wenn die Norm endlich ist",
-      "Wenn die Funktion stetig ist",
-      "Wenn der Gradient existiert"
+      "Alle Punkte mit demselben Funktionswert",
+      "Alle Nullstellen einer Funktion",
+      "Alle lokalen Minima",
+      "Alle Punkte mit verschwindendem Gradienten"
     ],
     "korrekt": 0
   },
   {
     "id": 100,
     "kategorie": "Analysis",
-    "schwierigkeit": "schwer",
-    "frage": "Was beschreibt ein Kurvenintegral?",
+    "schwierigkeit": "leicht",
+    "frage": "Wie steht der Gradient auf einer Niveaufläche?",
     "antworten": [
-      "Ein Integral nur über Rechtecke",
-      "Eine partielle Ableitung",
-      "Eine Taylorentwicklung",
-      "Ein Integral entlang einer Kurve"
+      "Parallel zur Niveaufläche",
+      "Senkrecht auf der Niveaufläche",
+      "Immer in x-Richtung",
+      "Tangential zur Kurve"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
     "id": 101,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (11)",
+    "frage": "Wann existiert der Grenzwert einer Funktion mehrerer Variablen nicht?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie verzichtet auf Grenzwerte"
+      "Wenn der Gradient existiert",
+      "Wenn die Funktion stetig ist",
+      "Wenn verschiedene Wege zu unterschiedlichen Grenzwerten führen",
+      "Wenn alle partiellen Ableitungen existieren"
     ],
     "korrekt": 2
   },
@@ -146,38 +146,38 @@
     "id": 102,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (12)",
+    "frage": "Was beschreibt die Hesse-Matrix einer Funktion?",
     "antworten": [
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen"
+      "Alle Funktionswerte",
+      "Den Gradienten",
+      "Die Stammfunktion",
+      "Die Matrix der zweiten partiellen Ableitungen"
     ],
-    "korrekt": 0
+    "korrekt": 3
   },
   {
     "id": 103,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (13)",
+    "frage": "Welche Voraussetzung muss für den Satz von Schwarz erfüllt sein?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie definiert nur lineare Gleichungen"
+      "Die zweiten partiellen Ableitungen sind stetig",
+      "Die Funktion ist linear",
+      "Der Gradient verschwindet",
+      "Die Funktion ist periodisch"
     ],
-    "korrekt": 2
+    "korrekt": 0
   },
   {
     "id": 104,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (14)",
+    "frage": "Wozu dienen Richtungsableitungen?",
     "antworten": [
-      "Sie verzichtet auf Grenzwerte",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen"
+      "Zur Berechnung von Integralen",
+      "Zur Bestimmung der Änderungsrate in einer vorgegebenen Richtung",
+      "Zur Berechnung der Determinante",
+      "Zur Bestimmung einer Nullstelle"
     ],
     "korrekt": 1
   },
@@ -185,12 +185,12 @@
     "id": 105,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (15)",
+    "frage": "Wann liegt ein lokales Minimum einer zweimal differenzierbaren Funktion vor?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie definiert nur lineare Gleichungen"
+      "Wenn der Gradient maximal ist",
+      "Wenn alle partiellen Ableitungen negativ sind",
+      "Wenn der Gradient verschwindet und die Hesse-Matrix positiv definit ist",
+      "Wenn die Funktion beschränkt ist"
     ],
     "korrekt": 2
   },
@@ -198,51 +198,51 @@
     "id": 106,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (16)",
+    "frage": "Was beschreibt eine Jacobi-Matrix?",
     "antworten": [
-      "Sie verzichtet auf Grenzwerte",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen"
+      "Die Matrix aller zweiten partiellen Ableitungen",
+      "Die Matrix aller ersten partiellen Ableitungen einer vektorwertigen Funktion",
+      "Eine Matrix zur Gauß-Elimination",
+      "Die Hesse-Matrix einer Skalarfunktion"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
     "id": 107,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (17)",
+    "frage": "Welche Aussage trifft auf eine Lipschitz-stetige Funktion zu?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verzichtet auf Grenzwerte"
+      "Sie ist immer linear",
+      "Sie besitzt immer ein Maximum",
+      "Ihre Änderungsrate ist durch eine Konstante beschränkt",
+      "Sie ist überall differenzierbar"
     ],
-    "korrekt": 1
+    "korrekt": 2
   },
   {
     "id": 108,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (18)",
+    "frage": "Welche Aussage gilt für kompakte Mengen im ℝⁿ?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie definiert nur lineare Gleichungen"
+      "Sie sind immer offen",
+      "Sie enthalten keine Randpunkte",
+      "Sie bestehen nur aus endlich vielen Punkten",
+      "Sie sind abgeschlossen und beschränkt"
     ],
-    "korrekt": 2
+    "korrekt": 3
   },
   {
     "id": 109,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (19)",
+    "frage": "Warum sind kompakte Mengen in der Optimierung besonders wichtig?",
     "antworten": [
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen"
+      "Stetige Funktionen nehmen darauf Minimum und Maximum an",
+      "Sie besitzen immer nur einen Punkt",
+      "Sie bestehen ausschließlich aus offenen Mengen",
+      "Sie garantieren Differenzierbarkeit"
     ],
     "korrekt": 0
   },
@@ -250,64 +250,64 @@
     "id": 110,
     "kategorie": "Analysis",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zur Analysis trifft zu? (20)",
+    "frage": "Welche Aussage beschreibt eine Richtungsableitung korrekt?",
     "antworten": [
-      "Sie verzichtet auf Grenzwerte",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen"
+      "Sie ist unabhängig von der Richtung",
+      "Sie misst die Änderungsrate in einer gewählten Richtung",
+      "Sie ist identisch mit einer Stammfunktion",
+      "Sie existiert nur für lineare Funktionen"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
     "id": 111,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (21)",
+    "frage": "Welche Bedingung muss ein Punkt erfüllen, um als kritischer Punkt zu gelten?",
     "antworten": [
-      "Sie verzichtet auf Grenzwerte",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie behandelt ausschließlich Matrizen"
+      "Die Hesse-Matrix muss invertierbar sein",
+      "Die Funktion muss stetig sein",
+      "Der Gradient verschwindet",
+      "Alle zweiten Ableitungen sind positiv"
     ],
-    "korrekt": 1
+    "korrekt": 2
   },
   {
     "id": 112,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (22)",
+    "frage": "Welche Aussage beschreibt einen Sattelpunkt?",
     "antworten": [
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie definiert nur lineare Gleichungen"
+      "Er ist immer ein lokales Maximum",
+      "Er ist immer ein lokales Minimum",
+      "Er besitzt keine partiellen Ableitungen",
+      "Er ist weder lokales Maximum noch lokales Minimum"
     ],
-    "korrekt": 0
+    "korrekt": 3
   },
   {
     "id": 113,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (23)",
+    "frage": "Welche Eigenschaft besitzt eine positiv definite Hesse-Matrix?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie verzichtet auf Grenzwerte"
+      "Sie spricht für ein lokales Minimum",
+      "Sie besitzt nur negative Eigenwerte",
+      "Sie ist immer singulär",
+      "Sie existiert nur bei linearen Funktionen"
     ],
-    "korrekt": 2
+    "korrekt": 0
   },
   {
     "id": 114,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (24)",
+    "frage": "Wann spricht man von einer konvexen Funktion?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie definiert nur lineare Gleichungen"
+      "Wenn jede Sekante unterhalb des Graphen liegt",
+      "Wenn jede Verbindungsstrecke zwischen zwei Punkten des Graphen oberhalb des Graphen liegt",
+      "Wenn sie nur positive Werte besitzt",
+      "Wenn sie stetig differenzierbar ist"
     ],
     "korrekt": 1
   },
@@ -315,25 +315,25 @@
     "id": 115,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (25)",
+    "frage": "Welche Aussage gilt für streng konvexe Funktionen?",
     "antworten": [
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verzichtet auf Grenzwerte"
+      "Sie besitzen immer mehrere Minima",
+      "Sie besitzen keine Extrempunkte",
+      "Ein lokales Minimum ist gleichzeitig das eindeutige globale Minimum",
+      "Sie sind immer linear"
     ],
-    "korrekt": 0
+    "korrekt": 2
   },
   {
     "id": 116,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (26)",
+    "frage": "Welchen Zweck erfüllt ein Kurvenintegral?",
     "antworten": [
-      "Sie verzichtet auf Grenzwerte",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen"
+      "Es berechnet ausschließlich Flächen",
+      "Es bestimmt Eigenwerte",
+      "Es approximiert Taylorpolynome",
+      "Es integriert entlang einer parametrierten Kurve"
     ],
     "korrekt": 3
   },
@@ -341,52 +341,52 @@
     "id": 117,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (27)",
+    "frage": "Welche Aussage gilt für den Gradient einer konstanten Funktion?",
     "antworten": [
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie behandelt ausschließlich Matrizen"
+      "Er ist der Nullvektor",
+      "Er besitzt immer Länge 1",
+      "Er hängt von der Richtung ab",
+      "Er ist nicht definiert"
     ],
-    "korrekt": 1
+    "korrekt": 0
   },
   {
     "id": 118,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (28)",
+    "frage": "Welche Beziehung besteht zwischen Gradient und Richtungsableitung?",
     "antworten": [
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verzichtet auf Grenzwerte",
-      "Sie definiert nur lineare Gleichungen"
+      "Sie sind immer identisch",
+      "Die Richtungsableitung ergibt sich als Skalarprodukt aus Gradient und Richtungsvektor",
+      "Die Richtungsableitung ist immer größer als der Gradient",
+      "Es besteht kein Zusammenhang"
     ],
-    "korrekt": 0
+    "korrekt": 1
   },
   {
     "id": 119,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (29)",
+    "frage": "Welche Eigenschaft besitzt eine differenzierbare Funktion immer?",
     "antworten": [
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie verzichtet auf Grenzwerte"
+      "Sie besitzt ein Maximum",
+      "Sie ist beschränkt",
+      "Sie ist stetig",
+      "Sie ist konvex"
     ],
-    "korrekt": 1
+    "korrekt": 2
   },
   {
     "id": 120,
     "kategorie": "Analysis",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zur Analysis trifft zu? (30)",
+    "frage": "Welche Aussage beschreibt den Satz von Schwarz?",
     "antworten": [
-      "Sie verallgemeinert Analysis auf mehrere Variablen",
-      "Sie definiert nur lineare Gleichungen",
-      "Sie behandelt ausschließlich Matrizen",
-      "Sie verzichtet auf Grenzwerte"
+      "Jede stetige Funktion besitzt einen Grenzwert",
+      "Jede Matrix ist diagonalisierbar",
+      "Jede Folge besitzt eine konvergente Teilfolge",
+      "Unter geeigneten Voraussetzungen stimmen gemischte zweite Ableitungen überein"
     ],
-    "korrekt": 0
+    "korrekt": 3
   }
 ]

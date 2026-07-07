@@ -1,392 +1,392 @@
 [
   {
     "id": 121,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "leicht",
-    "frage": "Was ist eine mathematische Aussage?",
+    "frage": "Wann heißt eine Relation auf einer Menge reflexiv?",
     "antworten": [
-      "Eine Funktion",
-      "Eine Menge",
-      "Eine beliebige Frage",
-      "Eine Aussage, die wahr oder falsch ist"
+      "Wenn jedes Element zu sich selbst in Relation steht",
+      "Wenn für jedes Paar auch die Umkehrung gilt",
+      "Wenn jedes Element genau einen Nachfolger besitzt",
+      "Wenn keine Zyklen auftreten"
     ],
-    "korrekt": 3
+    "korrekt": 0
   },
   {
     "id": 122,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "leicht",
-    "frage": "Was bezeichnet ¬A?",
+    "frage": "Welche Eigenschaft besitzt eine symmetrische Relation?",
     "antworten": [
-      "Die Negation von A",
-      "Die Implikation",
-      "Die Disjunktion",
-      "Die Konjunktion"
+      "Sie ist immer transitiv",
+      "Aus aRb folgt stets bRa",
+      "Sie enthält nur endlich viele Paare",
+      "Sie ist immer reflexiv"
     ],
-    "korrekt": 0
+    "korrekt": 1
   },
   {
     "id": 123,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "leicht",
-    "frage": "Wofür steht ∧?",
+    "frage": "Was bedeutet Transitivität einer Relation?",
     "antworten": [
-      "Äquivalenz",
-      "Disjunktion (ODER)",
-      "Negation",
-      "Konjunktion (UND)"
+      "Aus aRb folgt bRa",
+      "Jedes Element steht mit sich selbst in Relation",
+      "Aus aRb und bRc folgt aRc",
+      "Jedes Element besitzt genau einen Vorgänger"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 124,
+    "kategorie": "Relationen",
+    "schwierigkeit": "leicht",
+    "frage": "Wann ist eine Relation antisymmetrisch?",
+    "antworten": [
+      "Wenn sie reflexiv ist",
+      "Wenn sie symmetrisch ist",
+      "Wenn sie transitiv ist",
+      "Wenn aus aRb und bRa stets a = b folgt"
     ],
     "korrekt": 3
   },
   {
-    "id": 124,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "leicht",
-    "frage": "Wofür steht ∨?",
-    "antworten": [
-      "Implikation",
-      "Konjunktion (UND)",
-      "Disjunktion (ODER)",
-      "Negation"
-    ],
-    "korrekt": 2
-  },
-  {
     "id": 125,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Was ist eine Implikation A⇒B?",
+    "kategorie": "Relationen",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Eigenschaften besitzt eine Äquivalenzrelation?",
     "antworten": [
-      "A ist falsch",
-      "Wenn A gilt, folgt B",
-      "B ist immer wahr",
-      "A und B sind identisch"
+      "Reflexivität, Symmetrie und Transitivität",
+      "Nur Transitivität",
+      "Antisymmetrie und Reflexivität",
+      "Linearität und Vollständigkeit"
     ],
-    "korrekt": 1
+    "korrekt": 0
   },
   {
     "id": 126,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Was ist eine notwendige Bedingung?",
+    "kategorie": "Relationen",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Eigenschaften besitzt eine Halbordnung?",
     "antworten": [
-      "B in A⇒B",
-      "Eine Menge",
-      "A in A⇒B",
-      "Eine Negation"
-    ],
-    "korrekt": 0
-  },
-  {
-    "id": 127,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Was zeigt die Kontrapositionsregel?",
-    "antworten": [
-      "Aus A folgt ¬A",
-      "Aus A⇒B folgt ¬B⇒¬A",
-      "Aus A⇒B folgt B⇒A",
-      "Aus B folgt A"
+      "Reflexivität und Symmetrie",
+      "Reflexivität, Antisymmetrie und Transitivität",
+      "Nur Antisymmetrie",
+      "Symmetrie und Vollständigkeit"
     ],
     "korrekt": 1
   },
   {
-    "id": 128,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Was ist der Induktionsanfang?",
+    "id": 127,
+    "kategorie": "Relationen",
+    "schwierigkeit": "leicht",
+    "frage": "Was versteht man unter der Potenzmenge einer Menge M?",
     "antworten": [
-      "Nachweis des ersten Falls",
-      "Kontraposition",
-      "Letzter Beweisschritt",
-      "Widerspruch"
-    ],
-    "korrekt": 0
-  },
-  {
-    "id": 129,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "schwer",
-    "frage": "Was ist das Ziel des Induktionsschlusses?",
-    "antworten": [
-      "A(1) widerlegen",
-      "Eine Matrix bilden",
-      "A(m)⇒A(m+1) zeigen",
-      "Eine Menge definieren"
+      "Alle Elemente von M",
+      "Alle echten Teilmengen von M",
+      "Die Menge aller Teilmengen von M",
+      "Alle Relationen auf M"
     ],
     "korrekt": 2
   },
   {
-    "id": 130,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "schwer",
-    "frage": "Was ist ein Widerspruchsbeweis?",
+    "id": 128,
+    "kategorie": "Relationen",
+    "schwierigkeit": "leicht",
+    "frage": "Wie viele Teilmengen besitzt eine Menge mit n Elementen?",
     "antworten": [
-      "Numerische Näherung",
-      "Annahme führt zu Widerspruch",
-      "Graphischer Beweis",
-      "Beweis durch Beispiel"
+      "n²",
+      "n!",
+      "2n",
+      "2ⁿ"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 129,
+    "kategorie": "Relationen",
+    "schwierigkeit": "leicht",
+    "frage": "Was ist eine Partition einer Menge?",
+    "antworten": [
+      "Eine Zerlegung in disjunkte, nichtleere Teilmengen",
+      "Eine beliebige Teilmenge",
+      "Die Potenzmenge",
+      "Eine geordnete Liste aller Elemente"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 130,
+    "kategorie": "Relationen",
+    "schwierigkeit": "leicht",
+    "frage": "Welcher Zusammenhang besteht zwischen Äquivalenzrelationen und Partitionen?",
+    "antworten": [
+      "Es besteht kein Zusammenhang",
+      "Jede Äquivalenzrelation erzeugt eine Partition",
+      "Nur Halbordnungen erzeugen Partitionen",
+      "Partitionen existieren nur für endliche Mengen"
     ],
     "korrekt": 1
   },
   {
     "id": 131,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (11)",
+    "frage": "Welche Aussage beschreibt die Vereinigung zweier Mengen A und B?",
     "antworten": [
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie behandelt nur Geometrie",
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise"
+      "Nur die gemeinsamen Elemente",
+      "Alle Elemente außerhalb von A und B",
+      "Alle Elemente, die in A oder B liegen",
+      "Nur die Elemente von A"
     ],
-    "korrekt": 0
+    "korrekt": 2
   },
   {
     "id": 132,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (12)",
+    "frage": "Was beschreibt die Schnittmenge zweier Mengen?",
     "antworten": [
-      "Sie nutzt keine Beweise",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie verzichtet auf Logik",
-      "Sie behandelt nur Geometrie"
-    ],
-    "korrekt": 1
-  },
-  {
-    "id": 133,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (13)",
-    "antworten": [
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise",
-      "Sie behandelt nur Geometrie",
-      "Sie basiert auf formalen Regeln und Aussagen"
+      "Alle Elemente aus A",
+      "Alle Elemente aus B",
+      "Alle Elemente außerhalb beider Mengen",
+      "Alle Elemente, die in beiden Mengen enthalten sind"
     ],
     "korrekt": 3
   },
   {
-    "id": 134,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "id": 133,
+    "kategorie": "Relationen",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (14)",
+    "frage": "Welche Aussage beschreibt den kartesischen Produktraum A × B?",
     "antworten": [
-      "Sie verzichtet auf Logik",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie behandelt nur Geometrie",
-      "Sie nutzt keine Beweise"
+      "Die Menge aller geordneten Paare (a,b)",
+      "Die Vereinigung von A und B",
+      "Die Schnittmenge von A und B",
+      "Die Potenzmenge von A"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 134,
+    "kategorie": "Relationen",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage gilt für eine totale Ordnung?",
+    "antworten": [
+      "Alle Elemente sind gleich",
+      "Je zwei Elemente sind miteinander vergleichbar",
+      "Sie ist immer symmetrisch",
+      "Sie besitzt keine Maxima"
     ],
     "korrekt": 1
   },
   {
     "id": 135,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (15)",
+    "frage": "Was beschreibt das Hasse-Diagramm?",
     "antworten": [
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise",
-      "Sie behandelt nur Geometrie",
-      "Sie basiert auf formalen Regeln und Aussagen"
+      "Eine Äquivalenzrelation",
+      "Eine Potenzmenge",
+      "Die Struktur einer Halbordnung ohne redundante Kanten",
+      "Eine Wahrheitstabelle"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 136,
+    "kategorie": "Relationen",
+    "schwierigkeit": "mittel",
+    "frage": "Wann heißt eine Relation eine totale Ordnung?",
+    "antworten": [
+      "Wenn alle Elemente dieselbe Anzahl Nachfolger besitzen",
+      "Wenn sie zusätzlich symmetrisch ist",
+      "Wenn sie endlich viele Elemente enthält",
+      "Wenn je zwei Elemente miteinander vergleichbar sind"
     ],
     "korrekt": 3
   },
   {
-    "id": 136,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (16)",
-    "antworten": [
-      "Sie nutzt keine Beweise",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie verzichtet auf Logik",
-      "Sie behandelt nur Geometrie"
-    ],
-    "korrekt": 1
-  },
-  {
     "id": 137,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (17)",
+    "frage": "Welche Aussage beschreibt das Komplement einer Menge A?",
     "antworten": [
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie nutzt keine Beweise",
-      "Sie behandelt nur Geometrie",
-      "Sie verzichtet auf Logik"
+      "Alle Elemente der Grundmenge, die nicht zu A gehören",
+      "Alle Teilmengen von A",
+      "Alle Elemente von A",
+      "Die Schnittmenge mit einer anderen Menge"
     ],
     "korrekt": 0
   },
   {
     "id": 138,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (18)",
+    "frage": "Welche Aussage beschreibt die Mengendifferenz A \\ B?",
     "antworten": [
-      "Sie nutzt keine Beweise",
-      "Sie verzichtet auf Logik",
-      "Sie behandelt nur Geometrie",
-      "Sie basiert auf formalen Regeln und Aussagen"
+      "Alle Elemente von B",
+      "Alle Elemente aus A, die nicht in B enthalten sind",
+      "Alle Elemente aus A und B",
+      "Die Potenzmenge von A"
     ],
-    "korrekt": 3
+    "korrekt": 1
   },
   {
     "id": 139,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (19)",
+    "kategorie": "Relationen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage beschreibt den ersten De-Morgan'schen Satz?",
     "antworten": [
-      "Sie behandelt nur Geometrie",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise"
+      "A ∩ B = A ∪ B",
+      "A \\ B = B \\ A",
+      "Das Komplement der Vereinigung ist der Schnitt der Komplemente",
+      "Die Vereinigung zweier Mengen ist immer disjunkt"
     ],
-    "korrekt": 1
+    "korrekt": 2
   },
   {
     "id": 140,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "mittel",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (20)",
+    "kategorie": "Relationen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage beschreibt den zweiten De-Morgan'schen Satz?",
     "antworten": [
-      "Sie behandelt nur Geometrie",
-      "Sie verzichtet auf Logik",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie nutzt keine Beweise"
+      "A ∩ B = ∅",
+      "A ⊆ B",
+      "A ∪ B = B ∪ A",
+      "Das Komplement des Schnitts ist die Vereinigung der Komplemente"
     ],
-    "korrekt": 2
+    "korrekt": 3
   },
   {
     "id": 141,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (21)",
+    "frage": "Welche Eigenschaft besitzt eine Bijektion?",
     "antworten": [
-      "Sie verzichtet auf Logik",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie nutzt keine Beweise",
-      "Sie behandelt nur Geometrie"
+      "Sie ist gleichzeitig injektiv und surjektiv",
+      "Sie besitzt immer endlich viele Elemente",
+      "Sie ist nur auf endlichen Mengen definiert",
+      "Sie bildet jedes Element auf sich selbst ab"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 142,
+    "kategorie": "Relationen",
+    "schwierigkeit": "schwer",
+    "frage": "Wann ist eine Abbildung injektiv?",
+    "antworten": [
+      "Wenn jedes Ziel mindestens ein Urbild besitzt",
+      "Wenn verschiedene Elemente stets auf verschiedene Bilder abgebildet werden",
+      "Wenn alle Bilder identisch sind",
+      "Wenn sie surjektiv ist"
     ],
     "korrekt": 1
   },
   {
-    "id": 142,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (22)",
-    "antworten": [
-      "Sie verzichtet auf Logik",
-      "Sie behandelt nur Geometrie",
-      "Sie nutzt keine Beweise",
-      "Sie basiert auf formalen Regeln und Aussagen"
-    ],
-    "korrekt": 3
-  },
-  {
     "id": 143,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (23)",
+    "frage": "Wann ist eine Abbildung surjektiv?",
     "antworten": [
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise",
-      "Sie behandelt nur Geometrie"
+      "Wenn sie injektiv ist",
+      "Wenn sie invertierbar ist",
+      "Wenn jedes Element der Zielmenge getroffen wird",
+      "Wenn sie monoton wächst"
     ],
-    "korrekt": 0
+    "korrekt": 2
   },
   {
     "id": 144,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (24)",
+    "frage": "Welche Aussage beschreibt eine inverse Abbildung?",
     "antworten": [
-      "Sie behandelt nur Geometrie",
-      "Sie verzichtet auf Logik",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie nutzt keine Beweise"
-    ],
-    "korrekt": 2
-  },
-  {
-    "id": 145,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (25)",
-    "antworten": [
-      "Sie behandelt nur Geometrie",
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise",
-      "Sie basiert auf formalen Regeln und Aussagen"
+      "Sie vertauscht Mengen",
+      "Sie existiert für jede Funktion",
+      "Sie bildet jedes Element auf sich selbst ab",
+      "Sie macht die ursprüngliche Abbildung rückgängig"
     ],
     "korrekt": 3
   },
   {
-    "id": 146,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "id": 145,
+    "kategorie": "Relationen",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (26)",
+    "frage": "Welche Aussage gilt für die Komposition zweier Funktionen?",
     "antworten": [
-      "Sie verzichtet auf Logik",
-      "Sie behandelt nur Geometrie",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie nutzt keine Beweise"
-    ],
-    "korrekt": 2
-  },
-  {
-    "id": 147,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
-    "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (27)",
-    "antworten": [
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise",
-      "Sie behandelt nur Geometrie"
+      "Die Ausgabe der ersten Funktion dient als Eingabe der zweiten",
+      "Sie ist nur für lineare Funktionen definiert",
+      "Sie verändert immer die Definitionsmenge",
+      "Sie ist stets kommutativ"
     ],
     "korrekt": 0
   },
   {
-    "id": 148,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "id": 146,
+    "kategorie": "Relationen",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (28)",
+    "frage": "Welche Aussage gilt für die Komposition von Funktionen?",
     "antworten": [
-      "Sie behandelt nur Geometrie",
-      "Sie verzichtet auf Logik",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie nutzt keine Beweise"
+      "Sie ist immer kommutativ",
+      "Sie ist im Allgemeinen nicht kommutativ",
+      "Sie ist nur für Bijektionen definiert",
+      "Sie verändert immer die Zielmenge"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 147,
+    "kategorie": "Relationen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage gilt für eine Äquivalenzklasse?",
+    "antworten": [
+      "Sie enthält stets alle Elemente der Grundmenge",
+      "Sie ist immer endlich",
+      "Sie besteht aus allen Elementen, die zueinander äquivalent sind",
+      "Sie enthält ausschließlich den Nullvektor"
     ],
     "korrekt": 2
   },
   {
-    "id": 149,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "id": 148,
+    "kategorie": "Relationen",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (29)",
+    "frage": "Welche Aussage beschreibt eine maximale Kette in einer Halbordnung?",
     "antworten": [
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie verzichtet auf Logik",
-      "Sie nutzt keine Beweise",
-      "Sie behandelt nur Geometrie"
+      "Sie enthält alle Elemente der Menge",
+      "Sie besteht nur aus Minimalen",
+      "Sie besitzt ausschließlich incomparable Elemente",
+      "Sie ist eine maximal vergleichbare Folge von Elementen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 149,
+    "kategorie": "Relationen",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage gilt für Minimal- und Maximalelemente einer Halbordnung?",
+    "antworten": [
+      "Sie müssen nicht eindeutig sein",
+      "Es existiert immer genau eines",
+      "Sie sind immer identisch",
+      "Sie treten nur bei totalen Ordnungen auf"
     ],
     "korrekt": 0
   },
   {
     "id": 150,
-    "kategorie": "Relationen, Algebra, Diskrete Mathematik",
+    "kategorie": "Relationen",
     "schwierigkeit": "schwer",
-    "frage": "Welche Aussage zu Logik und Diskreter Mathematik ist richtig? (30)",
+    "frage": "Welche Aussage beschreibt ein kleinstes Element einer geordneten Menge?",
     "antworten": [
-      "Sie behandelt nur Geometrie",
-      "Sie verzichtet auf Logik",
-      "Sie basiert auf formalen Regeln und Aussagen",
-      "Sie nutzt keine Beweise"
+      "Es ist lediglich minimal",
+      "Es ist kleiner oder gleich jedem anderen Element der Menge",
+      "Es besitzt keine Vorgänger",
+      "Es ist immer eindeutig durch den Rang bestimmt"
     ],
-    "korrekt": 2
+    "korrekt": 1
   }
 ]
