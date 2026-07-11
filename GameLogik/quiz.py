@@ -71,11 +71,10 @@ class Quiz:
         self.laeuft = True
 
     def joker_einsetzen(self, joker):
-        if joker.benutzt:
+        if joker.ist_benutzt():
             return None
-        
-        joker.benutzt = True
-        
+
+        # anwenden() markiert den Joker intern als benutzt
         joker_antwort = joker.anwenden(self.aktuelle_frage)
 
         return joker_antwort
