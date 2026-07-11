@@ -1,9 +1,10 @@
 from difficulty import Difficulty
 from frage import Frage
 from spieler import Spieler
+from joker import Joker
 
 class Quiz:
-    def __init__(self,spieler, fragen, joker):
+    def __init__(self, spieler: Spieler, fragen: list[Frage], joker: list[Joker]) -> None:
         self.spieler = spieler
         self.fragen = fragen
         self.joker = joker
@@ -14,7 +15,7 @@ class Quiz:
         self.laeuft = True
     
     
-    def berechne_schwierigkeit(self):
+    def berechne_schwierigkeit(self) -> Difficulty:
         if self.aktuelle_frage_nummer <=5:
             Schwierigkeit = Difficulty.EINFACH
 
@@ -26,7 +27,7 @@ class Quiz:
         
         return Schwierigkeit
     
-    def naechste_frage(self):
+    def naechste_frage(self) -> Frage | str:
         for frage in self.fragen:
             if  frage.schwierigkeit == self.aktuelle_schwierigkeit:
                 self.aktuelle_frage = frage
@@ -35,7 +36,7 @@ class Quiz:
         
         return "Keine Fragen vorhanden"
     
-    def antwort_pruefen(self, antwort):
+    def antwort_pruefen(self, antwort: str) -> None:
         if self.aktuelle_frage.ist_korrekt(antwort):
             self.spieler.setze_runden_guthaben(self.gewinnleiter[self.aktuelle_frage_nummer - 1])
             self.aktuelle_frage_nummer += 1
@@ -55,28 +56,30 @@ class Quiz:
                self.spieler.setze_runden_guthaben(0)
                self.laeuft = False
 
-    def aussteigen(self):
+    def aussteigen(self) -> None:
         self.laeuft = False
 
-    def ist_vorbei(self):
+    def ist_vorbei(self) -> bool:
         if self.laeuft == True:
             return False
         else:
             return True
         
-    def neue_runde(self):
+    def neue_runde(self) -> None:
         self.spieler.runde_abschliessen()
         self.aktuelle_frage_nummer = 1
         self.aktuelle_schwierigkeit = self.berechne_schwierigkeit()
         self.laeuft = True
 
-    def joker_einsetzen(self, joker):
+    def joker_einsetzen(self, joker: Joker) -> list[str] | str | dict[str, int] | None:
         if joker.benutzt:
             return None
-        
-        joker.benutzt = True
+
+        joker.markieren_als_benutzt()
         
         joker_antwort = joker.anwenden(self.aktuelle_frage)
 
         return joker_antwort
+    
+
 

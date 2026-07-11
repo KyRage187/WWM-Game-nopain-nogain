@@ -20,13 +20,12 @@ from joker import FiftyFiftyJoker, TelefonJoker, PublikumsJoker
 # skelett der app
 st.set_page_config(page_title="Wer wird Millionär?", page_icon=":moneybag:", layout="centered")
 
-# QuestionLoader erwartet einen ORDNER mit JSON-Dateien, keine einzelne Datei.
+# QuestionLoader erwartet einen ORDNER mit JSON-Dateien.
 FRAGEN_PFAD = str(BASIS_PFAD / "FragenDatenbank")
 BESTENLISTE_PFAD = str(BASIS_PFAD / "bestenliste.json")
 TELEFON_PERSONEN = ["JBL", "Drabi", "Wezon"]
 
 #sessionstate
-#ist bis jetz nur prototyp
 
 if "quiz" not in st.session_state:
     st.session_state.quiz = None
@@ -58,7 +57,7 @@ def startbildschirm():
         loader = QuestionLoader(FRAGEN_PFAD)
         fragen = loader.lade_fragen()
 
-        # Quiz braucht 3 Argumente: spieler, fragen UND eine Liste von Jokern
+        # Quiz braucht 3 Argumente: spieler, fragen und eine Liste mit den Jokern
         spieler = Spieler(name.strip())
         joker = [
             FiftyFiftyJoker(),
