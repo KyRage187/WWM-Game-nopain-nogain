@@ -8,16 +8,16 @@ from frage import Frage
 
 class QuestionLoader:
 
-    SCHWIERIGKEIT_MAPPING = {
+    SCHWIERIGKEIT_MAPPING: dict[str, Difficulty] = {
         "leicht": Difficulty.EINFACH,
         "mittel": Difficulty.MITTEL,
         "schwer": Difficulty.SCHWER
     }
 
-    def __init__(self, ordnerpfad):
+    def __init__(self, ordnerpfad: str) -> None:
         self.dateipfad = ordnerpfad
 
-    def lade_fragen(self):
+    def lade_fragen(self) -> list[Frage]:
 
         alle_fragen = []
 
@@ -89,7 +89,7 @@ class QuestionLoader:
         return quiz_fragen
 
     @staticmethod
-    def fragen_nach_schwierigkeit(fragen, stufe):
+    def fragen_nach_schwierigkeit(fragen: list[Frage], stufe: Difficulty) -> list[Frage]:
 
         passende_fragen = []
 

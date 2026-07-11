@@ -1,31 +1,29 @@
 from abc import ABC, abstractmethod
 import random
-
+from frage import Frage
 
 class Joker(ABC):
 
-    def __init__(self):
-        self._benutzt = False
+    def __init__(self) -> None:
+        self.benutzt = False
 
-    def ist_benutzt(self):
-        return self._benutzt
+    def ist_benutzt(self) -> bool:
+        return self.benutzt
 
-    def markieren_als_benutzt(self):
-        self._benutzt = True
+    def markieren_als_benutzt(self) -> None:
+        self.benutzt = True
 
     @abstractmethod
-    def anwenden(self, frage):
+    def anwenden(self, frage: Frage):
         pass
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.__class__.__name__
 
 
 class FiftyFiftyJoker(Joker):
 
-    def anwenden(self, frage):
-
-        self.markieren_als_benutzt()
+    def anwenden(self, frage: Frage) -> list[str]:
 
         falsche_antworten = [
             antwort
@@ -48,15 +46,13 @@ class FiftyFiftyJoker(Joker):
 
 class TelefonJoker(Joker):
 
-    def __init__(self, person):
+    def __init__(self, person: str) -> None:
 
         super().__init__()
 
         self.person = person
 
-    def anwenden(self, frage):
-
-        self.markieren_als_benutzt()
+    def anwenden(self, frage: Frage) -> str:
 
         if self.person == "JBL":
 
@@ -83,9 +79,7 @@ class TelefonJoker(Joker):
 
 class PublikumsJoker(Joker):
 
-    def anwenden(self, frage):
-
-        self.markieren_als_benutzt()
+    def anwenden(self, frage: Frage) -> dict[str, int]:
 
         richtige_prozent = random.randint(55, 80)
 
