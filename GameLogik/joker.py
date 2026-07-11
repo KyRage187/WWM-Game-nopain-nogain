@@ -25,8 +25,6 @@ class FiftyFiftyJoker(Joker):
 
     def anwenden(self, frage: Frage) -> list[str]:
 
-        self.markieren_als_benutzt()
-
         falsche_antworten = [
             antwort
             for antwort in frage.antworten
@@ -56,8 +54,6 @@ class TelefonJoker(Joker):
 
     def anwenden(self, frage: Frage) -> str:
 
-        self.markieren_als_benutzt()
-
         if self.person == "JBL":
 
             return (
@@ -84,8 +80,6 @@ class TelefonJoker(Joker):
 class PublikumsJoker(Joker):
 
     def anwenden(self, frage: Frage) -> dict[str, int]:
-
-        self.markieren_als_benutzt()
 
         richtige_prozent = random.randint(55, 80)
 

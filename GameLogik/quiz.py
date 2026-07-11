@@ -37,13 +37,20 @@ class Quiz:
         return "Keine Fragen vorhanden"
     
     def antwort_pruefen(self, antwort: str) -> None:
+        
         if self.aktuelle_frage.ist_korrekt(antwort):
             self.spieler.setze_runden_guthaben(self.gewinnleiter[self.aktuelle_frage_nummer - 1])
             self.aktuelle_frage_nummer += 1
-            self.aktuelle_schwierigkeit = self.berechne_schwierigkeit()
-       
-        else:
             
+            if self.aktuelle_frage_nummer == 16:
+                self.laeuft = False
+            
+            self.aktuelle_schwierigkeit = self.berechne_schwierigkeit()
+        
+        
+        
+        else:
+           
             if self.aktuelle_frage_nummer > 10:
                self.spieler.setze_runden_guthaben(self.gewinnleiter[10-1])
                self.laeuft = False
