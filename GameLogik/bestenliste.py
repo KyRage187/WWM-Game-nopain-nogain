@@ -4,19 +4,19 @@ import os
 
 class Bestenliste:
 
-    def __init__(self, dateipfad="bestenliste.json"):
+    def __init__(self, dateipfad: str = "bestenliste.json") -> None:
         self.dateipfad = dateipfad
 
         if not os.path.exists(self.dateipfad):
             with open(self.dateipfad, "w", encoding="utf-8") as datei:
                 json.dump([], datei, indent=4)
 
-    def lade_bestenliste(self):
+    def lade_bestenliste(self) -> list[dict]:
 
         with open(self.dateipfad, "r", encoding="utf-8") as datei:
             return json.load(datei)
 
-    def speichere(self, name, gesamt_guthaben):
+    def speichere(self, name: str, gesamt_guthaben: int) -> None:
 
         bestenliste = self.lade_bestenliste()
 

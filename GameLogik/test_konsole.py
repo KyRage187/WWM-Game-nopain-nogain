@@ -7,7 +7,7 @@ from spieler import Spieler
 from quiz import Quiz
 
 
-def mach_fragen_pool():
+def mach_fragen_pool() -> list[Frage]:
     fragen = []
     for i in range(1, 6):
         fragen.append(Frage(f"Einfache Frage {i}?", ["a", "b"], "a", Difficulty.EINFACH))
@@ -20,14 +20,14 @@ def mach_fragen_pool():
 
 # Provisorische Lade-Funktion, NUR zum Testen mit echten Daten.
 # Das eigentliche Laden aus JSON ist Aufgabe von QuestionLoader (Person B).
-SCHWIERIGKEIT_MAPPING = {
+SCHWIERIGKEIT_MAPPING: dict[str, Difficulty] = {
     "leicht": Difficulty.EINFACH,
     "mittel": Difficulty.MITTEL,
     "schwer": Difficulty.SCHWER,
 }
 
 
-def lade_echte_fragen():
+def lade_echte_fragen() -> list[Frage]:
     fragen = []
     for pfad in glob.glob("../fragen-datenbank/*.json"):
         with open(pfad, encoding="utf-8") as f:
@@ -78,10 +78,10 @@ print("=== Testlauf 3: Joker einsetzen ===")
 
 
 class DemoJoker:
-    def __init__(self):
+    def __init__(self) -> None:
         self.benutzt = False
 
-    def anwenden(self, frage):
+    def anwenden(self, frage: Frage) -> str:
         return f"Joker-Tipp zu: {frage.text}"
 
 
