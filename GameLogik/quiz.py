@@ -27,15 +27,16 @@ class Quiz:
         
         return Schwierigkeit
     
-    def naechste_frage(self) -> Frage | str:
+    def naechste_frage(self) -> Frage | None:
         for frage in self.fragen:
             if  frage.schwierigkeit == self.aktuelle_schwierigkeit:
                 self.aktuelle_frage = frage
                 self.fragen.remove(frage)
                 return frage
         
-        return "Keine Fragen vorhanden"
-    
+        self.laeuft = False
+        return None
+
     def antwort_pruefen(self, antwort: str) -> None:
         
         if self.aktuelle_frage.ist_korrekt(antwort):
@@ -46,8 +47,6 @@ class Quiz:
                 self.laeuft = False
             
             self.aktuelle_schwierigkeit = self.berechne_schwierigkeit()
-        
-        
         
         else:
            
