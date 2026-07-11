@@ -187,28 +187,127 @@ def zeige_joker_ergebnis():
         st.info(daten["ergebnis"])  # blauer kasten mit dem spruch
 
 
+# GEWINNLEITER (SIDEBAR)
+
+def zeige_gewinnleiter(quiz):
+    with st.sidebar:  # linke seite, bleibt immer sichtbar
+        st.header("Gewinnleiter")
+        # von oben nach unten durchgehen (wie im fernsehen)
+        # range rückwärts: 14, 13, ... 1, 0
+        for i in range(len(quiz.gewinnleiter) - 1, -1, -1):
+            betrag = quiz.gewinnleiter[i]  # der geldbetrag an position i
+            # sicherheitsstufen sind bei frage 5 und 10 (index 4 und 9)
+            sicher = " (sicher)" if i in (4, 9) else ""
+            if i + 1 == quiz.aktuelle_frage_nummer:
+                # aktuelle frage mit pfeil und fett
+                st.write(f"➡ **Frage {i+1}: {betrag} €{sicher}**")
+            elif i + 1 < quiz.aktuelle_frage_nummer:
+                # schon geschafft mit häkchen
+                st.write(f"✔ Frage {i+1}: {betrag} €{sicher}")
+            else:
+                # kommt noch, normal anzeigen
+                st.write(f"Frage {i+1}: {betrag} €{sicher}")
+        st.write("---")  # trennlinie
+        # infos zum spieler unten drunter
+        st.write(f"**Spieler:** {quiz.spieler.name}")
+        st.write(f"**Rundenguthaben:** {quiz.spieler.runden_guthaben} €")
+        st.write(f"**Gesamtguthaben:** {quiz.spieler.gesamt_guthaben} €")
+
+
+# AUSSTEIGEN BUTTON
+
+def zeige_aussteigen(quiz):
+    st.write("---")  # trennlinie überm button
+    if st.button("Aussteigen und Guthaben sichern"):
+        # aussteigen in der logik setzt laeuft = false
+        # guthaben bleibt dabei erhalten (das ist ja der sinn)
+        quiz.aussteigen()
+        st.session_state.runde_beendet = True  # damit rundenende angezeigt wird
+        st.session_state.joker_ergebnis = None  # joker anzeige weg
+        st.rerun()
+
+
+# RUNDENENDE
+def zeige_rundenende(quiz):
+    st.header("Runde beendet")
+    # millionär check: wenn fragennummer über 15 hast du alle geschafft
+    if quiz.aktuelle_frage_nummer > len(quiz.gewinnleiter):
+        st.success("Glückwunsch, du bist Millionär!")  # grüner kasten
+    elif quiz.ist_vorbei():
+        st.error("Runde vorbei – du hast leider verloren oder bist ausgestiegen.")
+    st.write(f"In dieser Runde erspielt: **{quiz.spieler.runden_guthaben} €**")
+    # zwei buttons nebeneinander
+    spalten = st.columns(2)
+    with spalten[0]:
+        if st.button("Neue Runde starten"):
+            # rundenguthaben aufs gesamt packen und auf 0 setzen
+            quiz.spieler.runde_abschliessen()
+            # neue fragen laden (spieler bleibt derselbe mit seinem gesamtguthaben)
+            loader = QuestionLoader(FRAGEN_PFAD)
+            fragen = loader.lade_fragen()
+            # neue joker machen (in neuer runde wieder frisch)
+            joker = [
+                FiftyFiftyJoker(),
+                TelefonJoker("JBL"),
+                PublikumsJoker(),
+            ]
+            # neues quiz objekt mit neuem zeug
+            st.session_state.quiz = Quiz(quiz.spieler, fragen, joker)
+            # alle anzeige flags zurücksetzen
+            st.session_state.geladene_nummer = None
+            st.session_state.aktuelle_frage_obj = None
+            st.session_state.joker_ergebnis = None
+            st.session_state.telefon_auswahl_aktiv = False
+            st.session_state.runde_beendet = False
+            st.rerun()  # neue runde startet
+    with spalten[1]:
+        if st.button("Aufhören und in Bestenliste eintragen"):
+            # rundenguthaben aufs gesamt
+            quiz.spieler.runde_abschliessen()
+            # in die bestenliste json datei schreiben
+            st.session_state.bestenliste.speichere(
+                quiz.spieler.name,
+                quiz.spieler.gesamt_guthaben,
+            )
+            # quiz auf none = zurück zum startbildschirm
+            st.session_state.quiz = None
+            st.session_state.runde_beendet = False
+            st.rerun()
+
 
 # HAUPTSTEUERUNG - DAS IST DER KERN
 
 # hier wird entschieden welcher bildschirm angezeigt wird
-
 if st.session_state.quiz is None:
-    # kein spiel läuft -> startbildschirm
+    # startscreen ohne aktives quiz
+    with st.sidebar:
+        st.header("Gewinnleiter")
+        st.caption("Startet nach Klick auf 'Spiel starten'.")
     startbildschirm()
 else:
-    # spiel läuft -> nur die funktionen aufrufen, die aktuell noch existieren
+    # spiel läuft
     quiz = st.session_state.quiz
-    frage = hole_aktuelle_frage(quiz)
-
-    if isinstance(frage, str):
-        # sicherheitsnetz: wenn keine fragen mehr da sind kriegen wir nen text zurück
-        st.warning(frage)
+    zeige_gewinnleiter(quiz)  # sidebar kommt immer
+    # ist die runde vorbei? (ausgestiegen ODER falsch ODER alle 15 geschafft)
+    if st.session_state.runde_beendet or quiz.ist_vorbei() or quiz.aktuelle_frage_nummer > len(quiz.gewinnleiter):
+        zeige_rundenende(quiz)  # rundenende bildschirm
     else:
-        # normales spiel
-        zeige_frage(quiz, frage)
-        zeige_joker_ergebnis()
-        zeige_joker(quiz)
-        zeige_telefon_auswahl(quiz)
+        # runde läuft normal -> spiel bildschirm
+        frage = hole_aktuelle_frage(quiz)
+        if isinstance(frage, str):
+            # sicherheitsnetz: wenn keine fragen mehr da sind kriegen wir nen text zurück
+            st.warning(frage)
+        else:
+            # alles normal -> frage anzeigen mit allem drum und dran
+            zeige_frage(quiz, frage)
+            zeige_joker_ergebnis()
+            zeige_joker(quiz)
+            zeige_telefon_auswahl(quiz)
+            zeige_aussteigen(quiz)
+
+
+
+
 
 
 
