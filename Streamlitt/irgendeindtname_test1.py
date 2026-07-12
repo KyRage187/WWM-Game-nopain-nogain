@@ -35,8 +35,8 @@ if "quiz" not in st.session_state:
 if "bestenliste" not in st.session_state:
     st.session_state.bestenliste = Bestenliste(BESTENLISTE_PFAD)  # bestenliste einmal laden
 
-if "joker_ergebnis" not in st.session_state:
-    st.session_state.joker_ergebnis = None  # noch kein joker benutzt
+if "joker_ergebnisse" not in st.session_state:
+    st.session_state.joker_ergebnisse = {}  # merkt pro joker das ergebnis (mehrere gleichzeitig)
 
 if "fifty_verbleibende" not in st.session_state:
     st.session_state.fifty_verbleibende = None  # merkt 50/50 ergebnis für aktuelle frage
@@ -46,6 +46,19 @@ if "telefon_auswahl_aktiv" not in st.session_state:
 
 if "runde_beendet" not in st.session_state:
     st.session_state.runde_beendet = False  # spiel läuft normal
+
+
+# RESET HELFER
+
+def reset_runde_state():
+    # setzt ALLE merker für eine runde auf anfang zurück
+    # damit nach neustart/bestenliste keine alte frage oder alter joker-stand hängen bleibt
+    st.session_state.geladene_nummer = None       # welche fragennummer gerade geladen ist
+    st.session_state.aktuelle_frage_obj = None     # das gecachte frage-objekt
+    st.session_state.joker_ergebnisse = {}         # anzeige der genutzten joker leeren
+    st.session_state.fifty_verbleibende = None     # 50/50 striche weg
+    st.session_state.telefon_auswahl_aktiv = False # telefon-auswahl zu
+    st.session_state.runde_beendet = False         # spiel läuft wieder normal
 
 
 # STARTBILDSCHIRM
@@ -74,6 +87,7 @@ def startbildschirm():
         ]
         # quiz objekt bauen und im session state speichern
         st.session_state.quiz = Quiz(spieler, fragen, joker)
+        reset_runde_state()  # alle merker frisch machen -> keine zombie-frage aus alter runde
         st.rerun()  # seite neu laden damit spiel startet
 
 
@@ -118,7 +132,7 @@ def zeige_frage(quiz, frage):
                 # antwort an die logik geben die checkt obs richtig ist und macht guthaben usw
                 quiz.antwort_pruefen(antwort)
                 # joker anzeige zurücksetzen damit sie nicht in die nächste frage klebt
-                st.session_state.joker_ergebnis = None
+                st.session_state.joker_ergebnisse = {}
                 st.session_state.fifty_verbleibende = None
                 st.rerun()  # neu laden
 
@@ -141,7 +155,8 @@ def zeige_joker(quiz):
                 else:
                     # 50/50 oder publikum direkt anwenden
                     ergebnis = quiz.joker_einsetzen(joker)
-                    st.session_state.joker_ergebnis = {"joker": joker, "ergebnis": ergebnis}
+                    # ergebnis unter dem joker-namen ablegen -> so bleiben mehrere gleichzeitig sichtbar
+                    st.session_state.joker_ergebnisse[type(joker).__name__] = {"joker": joker, "ergebnis": ergebnis}
                     if isinstance(joker, FiftyFiftyJoker):
                         st.session_state.fifty_verbleibende = ergebnis
                 st.rerun()
@@ -168,29 +183,29 @@ def zeige_telefon_auswahl(quiz):
                 telefon.person = person
                 # JETZT erst anwenden mit der richtigen person
                 ergebnis = quiz.joker_einsetzen(telefon)
-                st.session_state.joker_ergebnis = {"joker": telefon, "ergebnis": ergebnis, "person": person}
+                # telefon-ergebnis unter seinem namen ablegen -> bleibt neben anderen jokern sichtbar
+                st.session_state.joker_ergebnisse[type(telefon).__name__] = {"joker": telefon, "ergebnis": ergebnis, "person": person}
                 st.session_state.telefon_auswahl_aktiv = False  # auswahl wieder zu
                 st.rerun()
 
 
 def zeige_joker_ergebnis():
-    # zeigt was der joker gemacht hat (aber nur für telefon und publikum)
-    # 50/50 wird direkt bei den buttons gehandhabt
-    daten = st.session_state.joker_ergebnis
-    if daten is None:
-        return  # kein joker benutzt = nichts anzeigen
-    joker = daten["joker"]  # welcher joker wars
+    # zeigt was ALLE bisher genutzten joker gemacht haben (telefon + publikum)
+    # 50/50 wird direkt bei den buttons gehandhabt (striche an den antworten)
+    # wir loopen durch alle gespeicherten ergebnisse -> mehrere gleichzeitig sichtbar
+    for daten in st.session_state.joker_ergebnisse.values():
+        joker = daten["joker"]  # welcher joker wars
 
-    if isinstance(joker, PublikumsJoker):
-        # publikum gibt prozente zurück für jede antwort
-        st.write("#### Das Publikum stimmt ab:")
-        for antwort, prozent in daten["ergebnis"].items():
-            st.progress(prozent / 100, text=f"{antwort}: {prozent} %")  # balken pro antwort
+        if isinstance(joker, PublikumsJoker):
+            # publikum gibt prozente zurück für jede antwort
+            st.write("#### Das Publikum stimmt ab:")
+            for antwort, prozent in daten["ergebnis"].items():
+                st.progress(prozent / 100, text=f"{antwort}: {prozent} %")  # balken pro antwort
 
-    elif isinstance(joker, TelefonJoker):
-        # telefon gibt nen text zurück (je nach person unterschiedlich)
-        st.write(f"#### {daten.get('person', '')} sagt:")
-        st.info(daten["ergebnis"])  # blauer kasten mit dem spruch
+        elif isinstance(joker, TelefonJoker):
+            # telefon gibt nen text zurück (je nach person unterschiedlich)
+            st.write(f"#### {daten.get('person', '')} sagt:")
+            st.info(daten["ergebnis"])  # blauer kasten mit dem spruch
 
 
 # GEWINNLEITER (SIDEBAR)
@@ -229,7 +244,7 @@ def zeige_aussteigen(quiz):
         # guthaben bleibt dabei erhalten (das ist ja der sinn)
         quiz.aussteigen()
         st.session_state.runde_beendet = True  # damit rundenende angezeigt wird
-        st.session_state.joker_ergebnis = None  # joker anzeige weg
+        st.session_state.joker_ergebnisse = {}  # joker anzeige weg
         st.rerun()
 
 
@@ -259,13 +274,8 @@ def zeige_rundenende(quiz):
             ]
             # neues quiz objekt mit neuem zeug
             st.session_state.quiz = Quiz(quiz.spieler, fragen, joker)
-            # alle anzeige flags zurücksetzen
-            st.session_state.geladene_nummer = None
-            st.session_state.aktuelle_frage_obj = None
-            st.session_state.joker_ergebnis = None
-            st.session_state.fifty_verbleibende = None
-            st.session_state.telefon_auswahl_aktiv = False
-            st.session_state.runde_beendet = False
+            # alle anzeige flags zurücksetzen (eine funktion für alles)
+            reset_runde_state()
             st.rerun()  # neue runde startet
     with spalten[1]:
         if st.button("Aufhören und in Bestenliste eintragen"):
@@ -278,7 +288,8 @@ def zeige_rundenende(quiz):
             )
             # quiz auf none = zurück zum startbildschirm
             st.session_state.quiz = None
-            st.session_state.runde_beendet = False
+            # WICHTIG: auch hier alle merker platt machen, sonst hängt die alte frage + crash
+            reset_runde_state()
             st.rerun()
 
 
@@ -312,9 +323,4 @@ else:
             zeige_telefon_auswahl(quiz)
             zeige_aussteigen(quiz)
 
-
-
-
-
-
-
+            
