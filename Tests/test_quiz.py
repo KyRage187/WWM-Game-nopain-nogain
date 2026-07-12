@@ -12,6 +12,7 @@ from quiz import Quiz
 from difficulty import Difficulty
 
 class TestQuiz(unittest.TestCase):
+    
     def test_schwierigkeit_grenze_5_zu_6(self):
         quiz = Quiz(Spieler("Test"), [], [])
         quiz.aktuelle_frage_nummer = 5
