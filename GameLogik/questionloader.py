@@ -1,8 +1,8 @@
 import glob
 import json
 import random
-from GameLogik.difficulty import Difficulty
-from GameLogik.frage import Frage
+from difficulty import Difficulty
+from frage import Frage
 
 
 class QuestionLoader:

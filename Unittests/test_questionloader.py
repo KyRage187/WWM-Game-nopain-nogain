@@ -3,10 +3,16 @@ import os
 import shutil
 import tempfile
 import unittest
+import sys
 
-from GameLogik.questionloader import QuestionLoader
-from GameLogik.difficulty import Difficulty
-from GameLogik.frage import Frage
+from pathlib import Path
+# Pfad zum Ordner "GameLogik" hinzufügen.
+BASIS_PFAD = Path(__file__).parent.parent
+sys.path.append(str(BASIS_PFAD / "GameLogik"))
+
+from questionloader import QuestionLoader
+from difficulty import Difficulty
+from frage import Frage
 
 
 class TestQuestionLoader(unittest.TestCase):

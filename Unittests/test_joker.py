@@ -1,7 +1,14 @@
 import unittest
-from GameLogik.joker import FiftyFiftyJoker, TelefonJoker, PublikumsJoker
-from GameLogik.frage import Frage
-from GameLogik.difficulty import Difficulty
+import sys
+
+from pathlib import Path
+# Pfad zum Ordner "GameLogik" hinzufügen.
+BASIS_PFAD = Path(__file__).parent.parent
+sys.path.append(str(BASIS_PFAD / "GameLogik"))
+
+from joker import FiftyFiftyJoker, TelefonJoker, PublikumsJoker
+from frage import Frage
+from difficulty import Difficulty
 
 
 class TestJoker(unittest.TestCase):

@@ -1,4 +1,4 @@
-from GameLogik.difficulty import Difficulty
+from difficulty import Difficulty
 
 
 class Frage:

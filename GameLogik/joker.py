@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 import random
-from GameLogik.frage import Frage
+from frage import Frage
 
 
 class Joker(ABC):

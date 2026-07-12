@@ -1,9 +1,14 @@
 import tempfile
 import os
 import unittest
+import sys
 
-from GameLogik.bestenliste import Bestenliste
+from pathlib import Path
+# Pfad zum Ordner "GameLogik" hinzufügen.
+BASIS_PFAD = Path(__file__).parent.parent
+sys.path.append(str(BASIS_PFAD / "GameLogik"))
 
+from bestenliste import Bestenliste
 
 class TestBestenliste(unittest.TestCase):
 

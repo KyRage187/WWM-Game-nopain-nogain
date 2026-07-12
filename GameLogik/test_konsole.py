@@ -1,10 +1,10 @@
 import json
 import glob
 
-from GameLogik.difficulty import Difficulty
-from GameLogik.frage import Frage
-from GameLogik.spieler import Spieler
-from GameLogik.quiz import Quiz
+from difficulty import Difficulty
+from frage import Frage
+from spieler import Spieler
+from quiz import Quiz
 
 
 def mach_fragen_pool() -> list[Frage]:

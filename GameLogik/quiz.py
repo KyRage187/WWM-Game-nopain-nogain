@@ -1,7 +1,7 @@
-from GameLogik.difficulty import Difficulty
-from GameLogik.frage import Frage
-from GameLogik.spieler import Spieler
-from GameLogik.joker import Joker
+from difficulty import Difficulty
+from frage import Frage
+from spieler import Spieler
+from joker import Joker
 
 class Quiz:
     def __init__(self, spieler: Spieler, fragen: list[Frage], joker: list[Joker]) -> None:
