@@ -33,9 +33,8 @@ class Bestenliste:
                        "millionen": 1 if gesamt_guthaben == 1000000 else 0}
             bestenliste.append(spieler)
         else:
-            # Höchststand und Millionengewinne aktualisieren.
-            if gesamt_guthaben > spieler["gesamt_guthaben"]:
-                spieler["gesamt_guthaben"] = gesamt_guthaben
+            # Guthaben und Millionengewinne aktualisieren.
+            spieler["gesamt_guthaben"] += gesamt_guthaben
             if gesamt_guthaben == 1000000:
                 spieler["millionen"] += 1
 
