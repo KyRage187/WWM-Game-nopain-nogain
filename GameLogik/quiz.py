@@ -39,6 +39,9 @@ class Quiz:
 
     def antwort_pruefen(self, antwort: str) -> None:
         
+        if not self.laeuft:
+            return
+
         if self.aktuelle_frage.ist_korrekt(antwort):
             self.spieler.setze_runden_guthaben(self.gewinnleiter[self.aktuelle_frage_nummer - 1])
             self.aktuelle_frage_nummer += 1

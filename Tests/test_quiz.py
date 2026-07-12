@@ -45,8 +45,9 @@ class TestQuiz(unittest.TestCase):
         frage = Frage("?", ["A", "B"], "A", Difficulty.MITTEL)
         quiz = Quiz(Spieler("Test"), [frage], [])
         quiz.aktuelle_frage_nummer = 16
-        quiz.antwort_pruefen("B")
-        self.assertFalse(quiz.ist_vorbei(), True)
+        quiz.laeuft = False
+        quiz.antwort_pruefen("A")
+        self.assertEqual(quiz.spieler.runden_guthaben, 0)
 
 
 
