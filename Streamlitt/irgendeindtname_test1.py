@@ -1,4 +1,6 @@
+#streamlit run Streamlitt/irgendeindtname_test1.py
 # imports - alles was wir brauchen
+
 import sys
 from pathlib import Path
 
@@ -35,6 +37,9 @@ if "bestenliste" not in st.session_state:
 
 if "joker_ergebnis" not in st.session_state:
     st.session_state.joker_ergebnis = None  # noch kein joker benutzt
+
+if "fifty_verbleibende" not in st.session_state:
+    st.session_state.fifty_verbleibende = None  # merkt 50/50 ergebnis für aktuelle frage
 
 if "telefon_auswahl_aktiv" not in st.session_state:
     st.session_state.telefon_auswahl_aktiv = False  # telefon auswahl zu
@@ -81,6 +86,7 @@ def hole_aktuelle_frage(quiz):
     if st.session_state.get("geladene_nummer") != quiz.aktuelle_frage_nummer:
         st.session_state.aktuelle_frage_obj = quiz.naechste_frage()  # neue frage ziehen
         st.session_state.geladene_nummer = quiz.aktuelle_frage_nummer  # nummer merken
+        st.session_state.fifty_verbleibende = None  # neue frage -> 50/50 zurücksetzen
     return st.session_state.aktuelle_frage_obj  # gespeicherte frage zurückgeben
 
 
@@ -93,10 +99,7 @@ def zeige_frage(quiz, frage):
     # 50/50 joker behandlung
     # wenn der 50/50 aktiv ist kriegen wir hier die noch übrigen antworten
     # die anderen blenden wir aus
-    verbleibende = None
-    daten = st.session_state.joker_ergebnis
-    if daten is not None and isinstance(daten["joker"], FiftyFiftyJoker):
-        verbleibende = daten["ergebnis"]  # die liste mit den 2 verbleibenden antworten
+    verbleibende = st.session_state.fifty_verbleibende
 
     # antwort-buttons in 2 spalten (so dass sie nebeneinander sind)
     spalten = st.columns(2)
@@ -116,6 +119,7 @@ def zeige_frage(quiz, frage):
                 quiz.antwort_pruefen(antwort)
                 # joker anzeige zurücksetzen damit sie nicht in die nächste frage klebt
                 st.session_state.joker_ergebnis = None
+                st.session_state.fifty_verbleibende = None
                 st.rerun()  # neu laden
 
 
@@ -138,6 +142,8 @@ def zeige_joker(quiz):
                     # 50/50 oder publikum direkt anwenden
                     ergebnis = quiz.joker_einsetzen(joker)
                     st.session_state.joker_ergebnis = {"joker": joker, "ergebnis": ergebnis}
+                    if isinstance(joker, FiftyFiftyJoker):
+                        st.session_state.fifty_verbleibende = ergebnis
                 st.rerun()
 
 
@@ -257,6 +263,7 @@ def zeige_rundenende(quiz):
             st.session_state.geladene_nummer = None
             st.session_state.aktuelle_frage_obj = None
             st.session_state.joker_ergebnis = None
+            st.session_state.fifty_verbleibende = None
             st.session_state.telefon_auswahl_aktiv = False
             st.session_state.runde_beendet = False
             st.rerun()  # neue runde startet
