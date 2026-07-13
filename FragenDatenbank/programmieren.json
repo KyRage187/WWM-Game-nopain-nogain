@@ -1,0 +1,392 @@
+[
+  {
+    "id": 211,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welches Prinzip verfolgt das DRY-Prinzip?",
+    "antworten": [
+      "Doppelten Code vermeiden und Wiederverwendung fördern",
+      "Jede Variable global deklarieren",
+      "Möglichst viele Kommentare schreiben",
+      "Methoden immer in einer Datei speichern"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 212,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Namenskonvention wird für Klassennamen in Python empfohlen?",
+    "antworten": [
+      "snake_case",
+      "CapWords (PascalCase)",
+      "UPPER_CASE",
+      "camelCase"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 213,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aussage beschreibt ein Instanzattribut korrekt?",
+    "antworten": [
+      "Es gehört allen Objekten einer Klasse gemeinsam",
+      "Es kann nur beim Erstellen der Klasse definiert werden",
+      "Es gehört zu einem bestimmten Objekt",
+      "Es ist immer unveränderlich"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 214,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welcher Vorteil spricht für eine grafische Benutzeroberfläche (GUI)?",
+    "antworten": [
+      "Sie benötigt grundsätzlich weniger Speicher",
+      "Sie ersetzt alle Python-Module",
+      "Sie arbeitet immer schneller als eine CLI",
+      "Sie erleichtert die Bedienung für Anwender"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 215,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welcher Bestandteil gehört typischerweise zu einer GUI?",
+    "antworten": [
+      "Button",
+      "Compiler",
+      "Interpreter",
+      "Bytecode"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 216,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür steht die Abkürzung CLI?",
+    "antworten": [
+      "Computer Logic Interface",
+      "Command Line Interface",
+      "Central Library Integration",
+      "Common Language Interpreter"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 217,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt eine Pure Function?",
+    "antworten": [
+      "Sie besitzt keine Parameter",
+      "Sie darf keine Rückgabewerte liefern",
+      "Sie verändert ihre Eingabedaten nicht",
+      "Sie kann nur in Klassen verwendet werden"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 218,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Welches Ziel verfolgt Parallel Programming?",
+    "antworten": [
+      "Den Speicherverbrauch erhöhen",
+      "Code vollständig ohne Funktionen schreiben",
+      "Programme ausschließlich seriell ausführen",
+      "Mehrere Aufgaben gleichzeitig ausführen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 219,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür werden Type Hints in Python hauptsächlich verwendet?",
+    "antworten": [
+      "Zur besseren Lesbarkeit und Unterstützung von Entwicklungswerkzeugen",
+      "Zur automatischen Optimierung des Programms",
+      "Zum Erzwingen von Datentypen während der Laufzeit",
+      "Zur Verschlüsselung von Variablen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 220,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt UX im Zusammenhang mit Benutzeroberflächen?",
+    "antworten": [
+      "Die grafische Gestaltung einer Oberfläche",
+      "Die Nutzererfahrung bei der Bedienung",
+      "Die Programmiersprache der Oberfläche",
+      "Die Geschwindigkeit des Compilers"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 221,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage beschreibt das Single-Responsibility-Prinzip?",
+    "antworten": [
+      "Jede Klasse darf höchstens eine Methode besitzen",
+      "Eine Klasse darf nur von einer anderen Klasse erben",
+      "Eine Klasse sollte genau einen Grund für Änderungen besitzen",
+      "Jede Klasse muss abstrakt sein"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 222,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage beschreibt das Open-Closed-Prinzip?",
+    "antworten": [
+      "Klassen dürfen niemals erweitert werden",
+      "Methoden müssen privat sein",
+      "Jede Klasse muss vererbbar sein",
+      "Software sollte erweiterbar sein, ohne bestehenden Code zu verändern"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 223,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welchen Vorteil bieten Abstract Base Classes?",
+    "antworten": [
+      "Sie können gemeinsame Schnittstellen für Unterklassen vorgeben",
+      "Sie beschleunigen automatisch den Programmablauf",
+      "Sie verhindern jede Form der Vererbung",
+      "Sie ersetzen alle normalen Klassen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 224,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Funktion übernimmt super() in einer Unterklasse?",
+    "antworten": [
+      "Es erstellt automatisch neue Objekte",
+      "Es greift auf Methoden oder Konstruktoren der Oberklasse zu",
+      "Es verhindert Überschreiben von Methoden",
+      "Es macht eine Klasse abstrakt"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 225,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aufgabe erfüllt die Method Resolution Order (MRO)?",
+    "antworten": [
+      "Sie bestimmt die Reihenfolge der Programmausführung",
+      "Sie optimiert rekursive Funktionen",
+      "Sie legt fest, in welcher Reihenfolge bei Mehrfachvererbung nach Methoden gesucht wird",
+      "Sie sortiert automatisch Klassen alphabetisch"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 226,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage beschreibt Mehrfachvererbung in Python korrekt?",
+    "antworten": [
+      "Eine Klasse kann von mehreren Oberklassen erben",
+      "Mehrfachvererbung ist in Python nicht erlaubt",
+      "Nur abstrakte Klassen dürfen mehrfach vererben",
+      "Mehrfachvererbung ist ausschließlich mit Interfaces möglich"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 227,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Warum sind Type Hints besonders hilfreich?",
+    "antworten": [
+      "Sie verbessern Lesbarkeit und statische Codeanalyse",
+      "Sie beschleunigen den Python-Interpreter",
+      "Sie ersetzen Unit-Tests",
+      "Sie verhindern automatisch Laufzeitfehler"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 228,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Wofür werden **kwargs in einer Funktion verwendet?",
+    "antworten": [
+      "Zum Übergeben beliebig vieler Positionsargumente",
+      "Zum Übergeben beliebig vieler benannter Argumente",
+      "Zum Erzwingen eines Rückgabetyps",
+      "Zum Erzeugen abstrakter Methoden"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 229,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welcher Vorteil entsteht durch Parallelisierung bei rechenintensiven Aufgaben?",
+    "antworten": [
+      "Der Speicherbedarf sinkt grundsätzlich",
+      "Es werden weniger Funktionen benötigt",
+      "Mehrere Prozessorkerne können gleichzeitig genutzt werden",
+      "Python-Code wird automatisch kompiliert"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 230,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage beschreibt den Unterschied zwischen UI und UX am besten?",
+    "antworten": [
+      "UI und UX bedeuten dasselbe",
+      "UX beschreibt ausschließlich Farben und Schriftarten",
+      "UI beschreibt die Programmlogik",
+      "UI betrifft das Erscheinungsbild, UX das Nutzungserlebnis"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 231,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Warum können Abstract Base Classes nicht direkt instanziiert werden?",
+    "antworten": [
+      "Weil sie abstrakte Methoden enthalten können, die erst implementiert werden müssen",
+      "Weil sie immer private Konstruktoren besitzen",
+      "Weil Python abstrakte Klassen nicht unterstützt",
+      "Weil sie keine Attribute besitzen dürfen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 232,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aussage trifft auf super() bei mehrstufiger Vererbung zu?",
+    "antworten": [
+      "Es ruft immer die Methode der Basisklasse direkt auf",
+      "Es folgt der Method Resolution Order (MRO)",
+      "Es funktioniert nur bei einfacher Vererbung",
+      "Es kann ausschließlich Konstruktoren aufrufen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 233,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Warum erhöht das Single-Responsibility-Prinzip die Wartbarkeit eines Programms?",
+    "antworten": [
+      "Weil jede Klasse möglichst viele Aufgaben übernimmt",
+      "Weil alle Funktionen in einer Datei gesammelt werden",
+      "Weil Änderungen meist nur einen klar abgegrenzten Teil betreffen",
+      "Weil dadurch automatisch Parallelisierung möglich wird"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 234,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Herausforderung entsteht häufig bei Parallel Programming?",
+    "antworten": [
+      "Python unterstützt keine Funktionen mehr",
+      "Alle Programme werden langsamer",
+      "GUI-Anwendungen können nicht parallel ausgeführt werden",
+      "Mehrere Prozesse können gleichzeitig auf dieselben Daten zugreifen"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 235,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welcher Vorteil ergibt sich aus der Verwendung atomarer Funktionen?",
+    "antworten": [
+      "Sie lassen sich leichter testen und wiederverwenden",
+      "Sie benötigen grundsätzlich keine Parameter",
+      "Sie ersetzen Vererbung vollständig",
+      "Sie verhindern alle Laufzeitfehler"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 236,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welches Ziel verfolgt das Open-Closed-Prinzip?",
+    "antworten": [
+      "Bestehender Code soll regelmäßig überschrieben werden",
+      "Neue Funktionen sollen möglichst durch Erweiterung statt Änderung entstehen",
+      "Alle Klassen müssen abstrakt sein",
+      "Methoden dürfen niemals überschrieben werden"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 237,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Warum sind GUIs besonders für Endanwender geeignet?",
+    "antworten": [
+      "Sie benötigen grundsätzlich weniger Hardware",
+      "Sie ersetzen alle Programmiersprachen",
+      "Sie ermöglichen eine intuitive Bedienung ohne Programmierkenntnisse",
+      "Sie führen Programme grundsätzlich schneller aus"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 238,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Welches Problem kann durch unnötig wiederholten Code entstehen?",
+    "antworten": [
+      "Python kompiliert den Code nicht mehr",
+      "Vererbung funktioniert nicht mehr",
+      "Type Hints werden ignoriert",
+      "Änderungen müssen an mehreren Stellen durchgeführt werden"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 239,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Warum sind Type Hints trotz fehlender Laufzeitprüfung sinnvoll?",
+    "antworten": [
+      "Sie erleichtern Wartung und Zusammenarbeit im Team",
+      "Sie erzwingen automatisch Datentypen",
+      "Sie machen Unit-Tests überflüssig",
+      "Sie reduzieren den Speicherverbrauch"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 240,
+    "kategorie": "Fortgeschrittene Programmierung",
+    "schwierigkeit": "schwer",
+    "frage": "Warum folgt Python bei Mehrfachvererbung einer Method Resolution Order (MRO)?",
+    "antworten": [
+      "Damit jede Klasse automatisch abstrakt wird",
+      "Damit eindeutig festgelegt ist, welche Implementierung einer Methode verwendet wird",
+      "Damit Methoden alphabetisch sortiert werden",
+      "Damit Konstruktoren nie überschrieben werden"
+    ],
+    "korrekt": 1
+  }
+]
