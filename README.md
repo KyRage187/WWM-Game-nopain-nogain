@@ -68,7 +68,7 @@ pip install -r requirements.txt
 Das Spiel wird über Streamlit gestartet:
 
 ```bash
-streamlit run Streamlitt/streamlit.py
+python -m streamlit run Streamlitt/streamlit.py
 ```
 
 Anschließend öffnet sich die Anwendung automatisch im Browser. Falls dies nicht geschieht, kann die angezeigte lokale URL (meist `http://localhost:8501`) im Browser geöffnet werden.
