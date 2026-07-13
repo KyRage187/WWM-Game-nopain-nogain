@@ -41,6 +41,8 @@ class FiftyFiftyJoker(Joker):
         # Verbleibende Antworten zusammenstellen und mischen.
         verbleibend = [a for a in frage.antworten if a not in entfernte]
         random.shuffle(verbleibend)
+
+        frage.antworten = verbleibend
         return verbleibend
 
 
@@ -72,10 +74,16 @@ class PublikumsJoker(Joker):
         # Berechnet die Prozentwerte zufallsbasiert
         richtige_prozent = random.randint(55, 80)
         rest = 100 - richtige_prozent
-        a = random.randint(0, rest)
-        b = random.randint(0, rest - a)
-        c = rest - a - b
-        falsche = [a, b, c]
+        anzahl_falsche = len(frage.antworten) - 1
+
+        if anzahl_falsche == 3:
+            a = random.randint(0, rest)
+            b = random.randint(0, rest - a)
+            c = rest - a - b
+            falsche = [a, b, c]
+            random.shuffle(falsche)
+        else:
+            falsche = [rest]
         random.shuffle(falsche)
         verteilung = {}
         index = 0

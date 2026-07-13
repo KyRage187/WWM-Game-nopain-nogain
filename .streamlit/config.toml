@@ -1,0 +1,14 @@
+# WWM-Theme fuer Streamlit (Issue #27 "Design des Spiels")
+#
+# streamlit liest diese datei automatisch beim start - und zwar aus dem
+# ".streamlit" ordner in dem verzeichnis, aus dem man "streamlit run ..."
+# aufruft. heisst: die app immer aus dem repo-root starten, sonst greift
+# das theme nicht!
+# doku: https://docs.streamlit.io/develop/concepts/configuration/theming
+
+[theme]
+base = "dark"                          # dunkles grundtheme als ausgangspunkt
+primaryColor = "#F5B942"               # GOLD - faerbt automatisch fokus-rahmen, progress-balken (publikumsjoker!) usw
+backgroundColor = "#16265C"            # sattes mittelblau - hell genug fuer fullscreen, immer noch wwm-studio
+secondaryBackgroundColor = "#24397E"   # helleres blau - eingabefelder, karten, buttons heben sich ab
+textColor = "#F2F4FF"                  # fast-weiss - angenehmer zu lesen als reines weiss
