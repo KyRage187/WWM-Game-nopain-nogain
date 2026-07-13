@@ -12,9 +12,13 @@ class Bestenliste:
                 json.dump([], datei, indent=4)
 
     def lade_bestenliste(self) -> list[dict]:
-        """Lädt alle Einträge aus der JSON-Datei."""
-        with open(self.dateipfad, "r", encoding="utf-8") as datei:
-            return json.load(datei)
+        try:    
+            """Lädt alle Einträge aus der JSON-Datei."""
+            with open(self.dateipfad, "r", encoding="utf-8") as datei:
+                return json.load(datei)
+        except json.JSONDecodeError:
+            return []
+
 
     def speichere(self, name: str, gesamt_guthaben: int) -> None:
         """Speichert oder aktualisiert den Eintrag eines Spielers."""
