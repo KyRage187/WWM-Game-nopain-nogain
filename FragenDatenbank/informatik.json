@@ -1,0 +1,392 @@
+[
+  {
+    "id": 241,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aufgabe erfüllt HTML auf einer Webseite?",
+    "antworten": [
+      "Es beschreibt Inhalt und Struktur der Webseite",
+      "Es führt JavaScript-Code aus",
+      "Es definiert Netzwerkprotokolle",
+      "Es speichert Daten dauerhaft"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 242,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Wofür wird CSS hauptsächlich verwendet?",
+    "antworten": [
+      "Zur Verarbeitung von Datenbanken",
+      "Zur Gestaltung des Aussehens von HTML-Elementen",
+      "Zum Erstellen von REST-Schnittstellen",
+      "Zum Kompilieren von JavaScript"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 243,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aufgabe übernimmt JavaScript im Browser?",
+    "antworten": [
+      "Es definiert das Layout einer Webseite",
+      "Es ersetzt HTML vollständig",
+      "Es ermöglicht die Ausführung von Programmcode im Browser",
+      "Es speichert CSS-Regeln"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 244,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welcher Bestandteil einer Webseite enthält häufig Kontaktinformationen und Impressum?",
+    "antworten": [
+      "Hero-Stage",
+      "Header",
+      "Navigation",
+      "Footer"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 245,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Was beschreibt das DOM (Document Object Model)?",
+    "antworten": [
+      "Die im Browser dargestellte Objektstruktur einer Webseite",
+      "Eine Programmiersprache",
+      "Ein CSS-Framework",
+      "Ein Netzwerkprotokoll"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 246,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Aussage beschreibt einen Prozess korrekt?",
+    "antworten": [
+      "Er besitzt keine Systemressourcen",
+      "Er ist ein Programm in Ausführung",
+      "Er ist immer nur ein Thread",
+      "Er kann keine Dateien öffnen"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 247,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Was ist ein Thread?",
+    "antworten": [
+      "Ein eigener Computer",
+      "Eine Datenbankverbindung",
+      "Die kleinste Ausführungseinheit innerhalb eines Prozesses",
+      "Eine HTML-Komponente"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 248,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Eigenschaft besitzt eine synchron ausgeführte Funktion?",
+    "antworten": [
+      "Sie läuft immer auf mehreren CPU-Kernen",
+      "Sie erzeugt automatisch neue Threads",
+      "Sie wird parallel zu allen anderen Funktionen ausgeführt",
+      "Die nächste Funktion startet erst nach ihrem Abschluss"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 249,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welchen Vorteil bietet Bootstrap?",
+    "antworten": [
+      "Es stellt wiederverwendbare CSS-Komponenten bereit",
+      "Es ersetzt JavaScript vollständig",
+      "Es erzeugt Datenbanken",
+      "Es kompiliert HTML"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 250,
+    "kategorie": "Informatik",
+    "schwierigkeit": "leicht",
+    "frage": "Welche Rendering-Strategie erzeugt HTML hauptsächlich im Browser des Benutzers?",
+    "antworten": [
+      "Server Side Rendering",
+      "Client Side Rendering",
+      "Static Site Generation",
+      "Publish-Subscribe Rendering"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 251,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Eigenschaft besitzt asynchrone Programmausführung?",
+    "antworten": [
+      "Alle Funktionen blockieren sich gegenseitig",
+      "Es kann immer nur eine Funktion existieren",
+      "Mehrere Aufgaben können scheinbar gleichzeitig ausgeführt werden",
+      "Sie funktioniert nur mit mehreren Prozessoren"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 252,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welches Problem entsteht häufig durch viele verschachtelte Callbacks?",
+    "antworten": [
+      "Der Browser kann HTML nicht mehr darstellen",
+      "CSS-Regeln werden ignoriert",
+      "JavaScript wird automatisch synchron",
+      "Der Code wird schwer lesbar und wartbar (Callback Hell)"
+    ],
+    "korrekt": 3
+  },
+  {
+    "id": 253,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welchen Vorteil besitzen Promises gegenüber verschachtelten Callbacks?",
+    "antworten": [
+      "Sie erleichtern die Strukturierung asynchroner Abläufe",
+      "Sie ersetzen HTML vollständig",
+      "Sie verhindern Netzwerkfehler",
+      "Sie machen CSS überflüssig"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 254,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche HTTP-Operation wird typischerweise zum Abrufen einer Ressource verwendet?",
+    "antworten": [
+      "POST",
+      "GET",
+      "DELETE",
+      "PUT"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 255,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welches Architekturprinzip zeichnet Publish-Subscribe-Systeme aus?",
+    "antworten": [
+      "Alle Komponenten kommunizieren ausschließlich direkt",
+      "Jeder Dienst besitzt genau eine Datenbank",
+      "Komponenten werden bei Zustandsänderungen informiert",
+      "Alle Dienste laufen im selben Prozess"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 256,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Eigenschaft kennzeichnet eine Layered Architecture?",
+    "antworten": [
+      "Alle Komponenten kommunizieren direkt miteinander",
+      "Alle Daten werden ausschließlich über REST übertragen",
+      "Jede Schicht kommuniziert über klar definierte Schnittstellen",
+      "Es existieren keine Abhängigkeiten zwischen den Schichten"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 257,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aufgabe übernimmt die Business-Logic-Schicht in einer mehrschichtigen Anwendung?",
+    "antworten": [
+      "Sie stellt ausschließlich HTML dar",
+      "Sie verarbeitet die zentrale Anwendungslogik",
+      "Sie speichert CSS-Dateien",
+      "Sie verarbeitet nur Benutzereingaben"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 258,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Aussage beschreibt das MVC-Modell korrekt?",
+    "antworten": [
+      "Der Controller verarbeitet Benutzereingaben und kommuniziert mit dem Model",
+      "Der Controller speichert dauerhaft alle Daten",
+      "Die View verarbeitet Datenbankabfragen",
+      "Das Model ist ausschließlich für das Layout zuständig"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 259,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welches Merkmal beschreibt eine Service-Oriented Architecture (SOA)?",
+    "antworten": [
+      "Alle Dienste müssen gleichzeitig gestartet werden",
+      "Jeder Dienst besitzt dieselbe Benutzeroberfläche",
+      "Dienste sind lose gekoppelt und eigenständig",
+      "Alle Komponenten befinden sich in einer einzigen Datei"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 260,
+    "kategorie": "Informatik",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Eigenschaft besitzt eine REST-Schnittstelle?",
+    "antworten": [
+      "REST funktioniert nur mit XML",
+      "REST verwendet ausschließlich POST-Anfragen",
+      "Ressourcen werden über URIs identifiziert",
+      "REST speichert automatisch Sitzungsdaten"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 261,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Warum gelten Prozesse als voneinander isoliert?",
+    "antworten": [
+      "Jeder Prozess besitzt eigene Ressourcen und eigenen Adressraum",
+      "Sie laufen immer auf verschiedenen Rechnern",
+      "Sie verwenden immer denselben Speicherbereich",
+      "Sie dürfen keine Dateien öffnen"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 262,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Warum benötigen Threads besondere Synchronisation?",
+    "antworten": [
+      "Sie laufen immer seriell",
+      "Mehrere Threads können gleichzeitig auf gemeinsame Daten zugreifen",
+      "Sie dürfen keine Funktionen aufrufen",
+      "Sie besitzen jeweils ein eigenes Betriebssystem"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 263,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Warum sollten synchrone XMLHttpRequests im Browser vermieden werden?",
+    "antworten": [
+      "Sie funktionieren nur mit CSS",
+      "Sie blockieren den Hauptthread des Browsers",
+      "Sie unterstützen keine HTTP-Anfragen",
+      "Sie benötigen zwingend mehrere Threads"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 264,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welcher Vorteil entsteht durch Promise Chaining?",
+    "antworten": [
+      "Es ersetzt REST vollständig",
+      "Es verhindert jede Netzwerkverbindung",
+      "Asynchrone Abläufe lassen sich übersichtlicher hintereinander ausführen",
+      "Es kompiliert JavaScript automatisch"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 265,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Warum muss eine Funktion mit await als async gekennzeichnet werden?",
+    "antworten": [
+      "Weil await nur innerhalb von async-Funktionen verwendet werden darf",
+      "Damit HTML korrekt interpretiert wird",
+      "Weil REST dies verlangt",
+      "Damit CSS geladen werden kann"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 266,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welcher Vorteil ergibt sich durch die Kaskade (Cascade) in CSS?",
+    "antworten": [
+      "Mehrere Stildefinitionen können nach Prioritätsregeln gemeinsam wirken",
+      "HTML-Dateien werden automatisch kompiliert",
+      "Alle Browser verwenden dieselben Standards",
+      "JavaScript wird schneller ausgeführt"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 267,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche CSS-Regel besitzt die höchste Priorität?",
+    "antworten": [
+      "Browser-Standardstil",
+      "Eine Regel mit !important",
+      "Externe CSS-Datei",
+      "Selektor mit Klassenname"
+    ],
+    "korrekt": 1
+  },
+  {
+    "id": 268,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welcher Vorteil ergibt sich durch externe CSS-Dateien?",
+    "antworten": [
+      "Sie verhindern JavaScript-Ausführung",
+      "Sie erzeugen automatisch Datenbanken",
+      "Styles können wiederverwendet und vom Browser zwischengespeichert werden",
+      "Sie ersetzen HTML-Elemente"
+    ],
+    "korrekt": 2
+  },
+  {
+    "id": 269,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Welche Aufgabe übernimmt ein Event Bus im Publish-Subscribe-Modell?",
+    "antworten": [
+      "Er verteilt Ereignisse zwischen Publishern und Subscribern",
+      "Er ersetzt REST-Schnittstellen",
+      "Er speichert CSS-Regeln",
+      "Er rendert HTML-Seiten"
+    ],
+    "korrekt": 0
+  },
+  {
+    "id": 270,
+    "kategorie": "Informatik",
+    "schwierigkeit": "schwer",
+    "frage": "Warum eignet sich Publish-Subscribe besonders für große verteilte Systeme?",
+    "antworten": [
+      "Es gibt keine Netzwerkkommunikation",
+      "Komponenten bleiben lose gekoppelt und reagieren auf Ereignisse",
+      "Alle Dienste greifen auf dieselbe Klasse zu",
+      "Alle Komponenten müssen sich gegenseitig kennen"
+    ],
+    "korrekt": 1
+  }
+]

@@ -19,7 +19,6 @@ class Bestenliste:
         except json.JSONDecodeError:
             return []
 
-
     def speichere(self, name: str, gesamt_guthaben: int) -> None:
         """Speichert oder aktualisiert den Eintrag eines Spielers."""
         bestenliste = self.lade_bestenliste()
