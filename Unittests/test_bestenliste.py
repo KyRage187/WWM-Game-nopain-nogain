@@ -34,7 +34,7 @@ class TestBestenliste(unittest.TestCase):
     def test_hoechstwert(self):
         self.b.speichere("Max", 1000)
         self.b.speichere("Max", 500)
-        self.assertEqual(self.b.lade_bestenliste()[0]["gesamt_guthaben"], 1000)
+        self.assertEqual(self.b.lade_bestenliste()[0]["gesamt_guthaben"], 1500)
 
     def test_million(self):
         self.b.speichere("Max", 1000000)
@@ -46,6 +46,17 @@ class TestBestenliste(unittest.TestCase):
         daten = self.b.lade_bestenliste()
         self.assertEqual(daten[0]["name"], "B")
 
+    def test_lade_leere_datei(self):
+        # datei NACH dem setUp absichtlich kaputt machen (kein gueltiges json)
+        with open(self.datei.name, "w", encoding="utf-8") as datei:
+            datei.write("\n")
+        self.assertEqual(self.b.lade_bestenliste(), [])
+
+    def test_speichere_repariert_kaputte_datei(self):
+        with open(self.datei.name, "w", encoding="utf-8") as datei:
+            datei.write("test")
+        self.b.speichere("Test", 500)
+        self.assertEqual(self.b.lade_bestenliste()[0]["name"], "Test")
 
 if __name__ == "__main__":
     unittest.main()
