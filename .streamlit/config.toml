@@ -9,6 +9,6 @@
 [theme]
 base = "dark"                          # dunkles grundtheme als ausgangspunkt
 primaryColor = "#F5B942"               # GOLD - faerbt automatisch fokus-rahmen, progress-balken (publikumsjoker!) usw
-backgroundColor = "#03082B"            # sehr dunkles nachtblau - der studio-hintergrund
-secondaryBackgroundColor = "#0A1A4F"   # etwas helleres blau - eingabefelder und karten
+backgroundColor = "#16265C"            # sattes mittelblau - hell genug fuer fullscreen, immer noch wwm-studio
+secondaryBackgroundColor = "#24397E"   # helleres blau - eingabefelder, karten, buttons heben sich ab
 textColor = "#F2F4FF"                  # fast-weiss - angenehmer zu lesen als reines weiss

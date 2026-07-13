@@ -1,7 +1,8 @@
 # WWM-GUI: Was wurde gemacht (für Emil)
 
-Version 2 — bewusst **einfach** gehalten: kein eigenes CSS, kein HTML, nur
-Standard-Streamlit. Jeder Baustein ist in 1–2 Minuten erklärbar.
+Bewusst **einfach** gehalten: Standard-Streamlit plus ein 3-Zeilen-CSS-Block.
+Kein Bootstrap — Streamlit bringt sein eigenes Layout-System mit, Bootstrap
+würde sich damit beißen und bräuchte einen CDN-Link (Internet-Pflicht).
 Die Spiel-Logik (GameLogik/) ist unverändert.
 
 ## Lokal starten (ohne irgendwas zu veröffentlichen)
@@ -11,64 +12,75 @@ py -m streamlit run Streamlitt/irgendeindtname_test1.py --server.address localho
 ```
 
 Läuft nur auf `http://localhost:8501` auf dem eigenen PC. **Aus dem Repo-Root
-starten**, sonst findet Streamlit die Theme-Datei nicht.
+starten**, sonst findet Streamlit die Theme-Datei nicht und die Farben fehlen.
 
-## Die 6 Bausteine
+## Die Bausteine
 
-### 1. Farben: `.streamlit/config.toml` (5 Zeilen, kein CSS!)
-Streamlit hat ein eingebautes Theme-System: `backgroundColor` (Dunkelblau),
-`primaryColor` (Gold) usw. Streamlit färbt damit automatisch alles Eingebaute —
-deshalb sind die Publikums-Balken und die `type="primary"`-Buttons gold,
-ohne dass wir irgendwo Farben in den Code schreiben.
+### 1. Farben: `.streamlit/config.toml` (5 Zeilen)
+Eingebautes Theme-System: `backgroundColor` (Dunkelblau), `primaryColor` (Gold).
+Streamlit färbt damit automatisch Publikums-Balken, `type="primary"`-Buttons usw.
 
-### 2. Gewinnleiter rechts: `st.columns` statt Sidebar
-Die Sidebar ist in Streamlit immer links. Deshalb: `layout="wide"` in
-`st.set_page_config` und in der Hauptsteuerung
-`links, rechts = st.columns([3, 1])`. `zeige_gewinnleiter()` ist die gleiche
-Funktion wie vorher (gleiche Schleife, gleiche ➡/✅-Logik) — sie wird nur mit
-`with rechts:` in die rechte Spalte gesetzt.
+### 2. Gewinnleiter rechts, als eigenes Kästchen
+`layout="wide"` + `links, rechts = st.columns([3, 1])` in der Hauptsteuerung.
+`st.container(border=True)` zeichnet den Rahmen um die Leiter — dadurch hängt
+sie nicht mehr "lose" rum. Die aktuelle Stufe wird mit Streamlits eingebauten
+Markdown-Farben markiert: `st.write(":orange[**→ 9. 8.000 €**]")`,
+geschaffte Stufen mit `:gray[...]`. Kein CSS nötig.
 
-### 3. Kopfzeile: `zeige_kopfzeile()` mit `st.metric`
-Drei `st.metric`-Karten (Spieler / Runde / Gesamt) neben dem Titel, gerendert
-**vor** den Spalten → immer oben sichtbar, kein Scrollen mehr nötig.
+### 3. Kopfzeile: `st.metric` für Spieler + aktuellen Gewinn
+Wird **vor** den Spalten gerendert → immer oben sichtbar. Das Gesamtguthaben
+zeigen wir absichtlich nicht mehr an: es wird erst am Rundenende verrechnet
+und stand deshalb während des Spiels immer verwirrend auf 0.
 
 ### 4. Antwort-Animation (orange → grün/rot) wie im TV
-Der Trick: **kein CSS, sondern die eingebauten farbigen Boxen** —
-`st.warning` = orange, `st.success` = grün, `st.error` = rot.
+Die Buttons werden **nie ausgetauscht** — sie bleiben exakt stehen und nur
+ihre Farbe ändert sich. Der Trick: Streamlit gibt jedem Element mit `key`
+automatisch die CSS-Klasse `st-key-<key>`. `faerbe_antwort_button()` injiziert
+damit eine Farbregel für genau einen Button; die `transition`-Zeile im
+`BASIC_CSS` blendet den Farbwechsel weich über.
 
-Ablauf in `zeige_antwort_feedback()`:
-1. Antwort-Klick speichert nur `st.session_state.gewaehlte_antwort` (noch keine Prüfung!)
-2. `st.empty()` ist ein Platzhalter, den man mehrfach neu befüllen kann
-3. Phase 1: gewählte Antwort als `st.warning` (orange) → `time.sleep(1)`
-4. Phase 2: gleiche Stelle neu befüllt — richtige Antwort `st.success` (grün),
-   falsche Wahl `st.error` (rot) → `time.sleep(1.5)`
-5. Erst **danach** geht die Antwort an `quiz.antwort_pruefen()` — die Logik
-   merkt von der ganzen Animation nichts.
+Ablauf (Zustandsmaschine über `st.session_state.feedback_phase`):
+1. Antwort-Klick speichert nur die Wahl und setzt `feedback_phase = "orange"`
+   (noch keine Prüfung!)
+2. Rerun: Seite wird komplett normal gezeichnet, dann färbt der Block ganz
+   unten in der Hauptsteuerung den gewählten Button orange → `time.sleep(1)`
+3. Rerun mit `feedback_phase = "aufloesung"`: richtige Antwort grün, falsche
+   Wahl rot → `time.sleep(1.5)` (nach falscher Antwort sieht man also immer,
+   was richtig gewesen wäre)
+4. Erst danach geht die Antwort an `quiz.antwort_pruefen()` — die Logik merkt
+   von der Animation nichts.
 
-Während der Animation werden Joker-/Aussteigen-Buttons nicht gerendert
-(ein `if` in der Hauptsteuerung), damit niemand mitten in der Auflösung klickt.
+Zwei Details: Das Einfärben/Schlafen passiert **ganz am Ende** der
+Hauptsteuerung, damit vorher die komplette Seite gezeichnet ist (nichts
+verschwindet, nichts springt — Joker und Aussteigen bleiben sichtbar).
+Und alle Klick-Handler prüfen `feedback_phase is None`, damit Klicks
+während der Animation ignoriert werden.
 
-### 5. Bestenliste auf dem Startbildschirm (Issue #24)
-`zeige_bestenliste_tabelle()` liest über die vorhandene
-`Bestenliste.lade_bestenliste()` und baut eine Liste von Dicts
-(Platz/Name/Guthaben/Millionen) — `st.dataframe` macht daraus automatisch
-eine Tabelle. Rein lesend, gespeichert wird weiter nur beim "Aufhören"-Button.
+### 5. Telefon-Joker als echtes Popup: `@st.dialog`
+`@st.dialog("Wen möchtest du anrufen?")` über der Funktion macht ein modales
+Popup-Fenster. Auswahl einer Person → Joker anwenden → `st.rerun()` schließt es.
+Klickt man stattdessen auf das X, ist **nichts** passiert: der Joker ist nicht
+verbraucht und nichts bleibt hängen — das fixt nebenbei den Bug, dass die
+Telefon-Auswahl über die nächste Frage hinaus offen blieb (Issue #20 Rest).
 
 ### 6. Kleinigkeiten
-- `st.balloons()` beim Millionengewinn (eine Zeile, eingebaut)
-- Joker-Labels "50:50 / 📞 Telefon / 👥 Publikum" über das `JOKER_LABELS`-Dict —
-  nur die Anzeige, die Button-Keys nutzen weiter `str(joker)`
-- `eur()`-Helfer: `f"{betrag:,}"` + Komma→Punkt = deutsche Tausenderpunkte
-- A/B/C/D-Präfixe in den Antwort-Labels; an `antwort_pruefen()` geht der Original-Text
+- `st.balloons()` beim Millionengewinn
+- Bestenliste auf dem Startbildschirm über `st.dataframe` (rein lesend, Issue #24)
+- `eur()`-Helfer für deutsche Tausenderpunkte
+- A/B/C/D-Präfixe nur im Label; an `antwort_pruefen()` geht der Original-Text
 
-## Noch offene Befunde (nicht auf diesem Branch gefixt — nur Doku)
+## Offene Punkte für die Team-Diskussion (nichts davon hier geändert)
 
-- **#20 Rest:** `telefon_auswahl_aktiv` wird beim Beantworten nicht zurückgesetzt →
-  offene Telefon-Auswahl kann in die nächste Frage "kleben".
+- **Publikum + 50:50:** Nutzt man erst 50:50 und dann Publikum, stimmt das
+  Publikum auch über die gestrichenen Antworten ab. Im TV stimmt es nur über
+  die verbleibenden ab. Bewusste Entscheidung treffen! (Wäre eine Änderung an
+  `PublikumsJoker.anwenden()` — Michels Modul, inkl. Unittest-Anpassung.)
+- **Millionen-Zähler:** `bestenliste.py` prüft `gesamt_guthaben == 1000000`.
+  Wer in Runde 1 500 € sichert und in Runde 2 die Million holt, hört mit
+  1.000.500 € auf → Million wird nicht gezählt. Aus dem Gesamtguthaben kann
+  man das nicht zuverlässig ablesen — die Info müsste explizit mitgegeben werden.
+- **`quiz.py`:** die hartkodierte `16` in `antwort_pruefen` lieber aus der
+  Gewinnleiter ableiten, sonst bricht es, wenn die Leiter mal geändert wird.
 - **#23:** Gespeichert wird nur beim "Aufhören"-Button; Tab zumachen = kein Eintrag.
-- **#25:** Nach unserem Test gefixt (durch PR #28) → Issue kann zu.
 - **#29 / Testdaten:** `bestenliste.json` liegt im Repo und wird beim Spielen
   beschrieben → Empfehlung: in `.gitignore` aufnehmen.
-- **Millionen-Zähler:** zählt nur bei exakt 1.000.000 im übergebenen Betrag.
-- **Merge-Achtung:** Khalils Unittest-Branch ändert `naechste_frage()` auf
-  `return None` — das Frontend prüft `isinstance(frage, str)`. Beim Merge anpassen.
