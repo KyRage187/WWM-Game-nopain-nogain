@@ -6,7 +6,7 @@ Modul: Fortgeschrittene Programmierung
 
 Studiengang: WDSKI25A 
 
-Team: Emil Gutschmiedt, Michel Köhler, Khalil Albert 
+Team: Emil Gutschmidt, Michel Köhler, Khalil Albert 
 
 ## **1.Unsere Idee** 
 

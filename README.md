@@ -4,16 +4,15 @@ Ein Quizspiel nach dem Vorbild von **„Wer wird Millionär?“**, entwickelt in
 
 ## Features
 
-* 🎮 Quizspiel im Stil von *Wer wird Millionär?*
-* ❓ Fragen mit unterschiedlichen Schwierigkeitsgraden
-* 🃏 Drei Joker:
-
+* Quizspiel im Stil von *Wer wird Millionär?*
+* Fragen mit unterschiedlichen Schwierigkeitsgraden
+* Drei Joker:
   * 50:50-Joker
   * Publikumsjoker
   * Telefonjoker
-* 🏆 Bestenliste zur Speicherung der Spielergebnisse
-* 🌐 Benutzeroberfläche mit Streamlit
-* 🧪 Unit-Tests für die wichtigsten Klassen
+* Bestenliste zur Speicherung der Spielergebnisse
+* Benutzeroberfläche mit Streamlit
+* Unit-Tests für die wichtigsten Klassen
 
 ## Projektstruktur
 
