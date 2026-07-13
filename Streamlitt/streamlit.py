@@ -1,4 +1,4 @@
-#streamlit run Streamlitt/irgendeindtname_test1.py
+#streamlit run Streamlitt/streamlit.py
 # imports - alles was wir brauchen
 
 import random  # zum mischen der antwort-reihenfolge
